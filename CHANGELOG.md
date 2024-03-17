@@ -1,3 +1,9 @@
+# DMT - ABB v0.0.3b
+**Yet another beta version...**
+
+## Mods Changed
+ - Rolled back Valhelsia Core to fix crashes
+
 # DMT - ABB v0.0.3
 **Yet another beta version.**
 
