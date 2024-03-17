@@ -1,0 +1,51 @@
+{
+  "name": "repurposed_structures:villages/bamboo/houses",
+  "fallback": "repurposed_structures:villages/bamboo/terminators",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "advancedperipherals:villages/bamboo/scientist",
+        "processors": "repurposed_structures:villages/bamboo/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "bountiful:village/common/bounty_gazebo",
+        "processors": "repurposed_structures:villages/bamboo/bountiful_conversion",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "farmersdelight:villages/bamboo/houses/compost_pile_1",
+        "processors": "repurposed_structures:villages/bamboo/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "iceandfire:villages/bamboo/scriber_house",
+        "processors": "repurposed_structures:villages/bamboo/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "irons_spellbooks:villages/bamboo/priest_house",
+        "processors": "repurposed_structures:villages/bamboo/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

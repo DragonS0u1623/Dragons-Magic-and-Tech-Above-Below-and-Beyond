@@ -1,0 +1,51 @@
+{
+  "name": "repurposed_structures:villages/jungle/houses",
+  "fallback": "repurposed_structures:villages/jungle/terminators",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "advancedperipherals:villages/jungle/scientist",
+        "processors": "repurposed_structures:villages/jungle/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "bountiful:village/common/bounty_gazebo",
+        "processors": "repurposed_structures:villages/jungle/bountiful_conversion",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "farmersdelight:villages/jungle/houses/compost_pile_1",
+        "processors": "repurposed_structures:villages/jungle/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "iceandfire:villages/jungle/scriber_house",
+        "processors": "repurposed_structures:villages/jungle/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "irons_spellbooks:villages/jungle/priest_house",
+        "processors": "repurposed_structures:villages/jungle/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

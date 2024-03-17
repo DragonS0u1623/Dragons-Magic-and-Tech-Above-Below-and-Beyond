@@ -1,0 +1,15 @@
+{
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "forge:ingots/mithril": "null",
+  "forge:ingots/iridium": "alltheores:iridium_ingot",
+  "forge:rubber": "industrialforegoing:dryrubber",
+  "forge:ingots/titanium": "null",
+  "forge:dusts/saltpeter": "bloodmagic:saltpeter",
+  "forge:gems/peridot": "alltheores:peridot",
+  "forge:ingots/chrome": "null",
+  "forge:ingots/tungsten": "null",
+  "forge:ingots/platinum": "alltheores:platinum_ingot",
+  "forge:ingots/graphite": "bigreactors:graphite_ingot",
+  "forge:dusts/niter": "thermal:niter_dust",
+  "forge:silicon": "enderio:silicon"
+}

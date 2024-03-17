@@ -1,0 +1,16 @@
+{
+  "pieces_spawn_counts": [
+    {
+      "nbt_piece_name": "advancedperipherals:villages/ocean/scientist",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name" : "farmersdelight:villages/ocean/houses/compost_pile_1",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "irons_spellbooks:villages/ocean/priest_house",
+      "never_spawn_more_than_this_many": 1
+    }
+  ]
+}

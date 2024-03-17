@@ -1,0 +1,42 @@
+{
+  "name": "repurposed_structures:villages/badlands/houses",
+  "fallback": "repurposed_structures:villages/badlands/terminators",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "advancedperipherals:villages/badlands/scientist",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "bountiful:village/common/bounty_gazebo",
+        "processors": "repurposed_structures:villages/badlands/bountiful_conversion",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "farmersdelight:villages/badlands/houses/compost_pile_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "irons_spellbooks:villages/badlands/priest_house",
+        "processors": "repurposed_structures:villages/badlands/randomizer",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

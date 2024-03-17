@@ -1,0 +1,30 @@
+{
+  "pieces_spawn_counts": [
+    {
+      "nbt_piece_name": "advancedperipherals:villages/dark_forest/scientist",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name" : "bountiful:village/common/bounty_gazebo",
+      "always_spawn_this_many" : 1,
+      "never_spawn_more_than_this_many": 1,
+      "minimum_distance_from_center_piece": 3
+    },
+    {
+      "nbt_piece_name" : "farmersdelight:villages/dark_forest/houses/compost_pile_1",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "iceandfire:villages/dark_forest/scriber_house",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "iceandfire:villages/workstations/scriber",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "irons_spellbooks:villages/dark_forest/priest_house",
+      "never_spawn_more_than_this_many": 1
+    }
+  ]
+}
