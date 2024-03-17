@@ -1,0 +1,37 @@
+name: Bug Report
+description: File a bug report
+title: "[BUG] "
+labels: [ bug ]
+body:
+  - type: input
+    id: pack-version
+    attributes:
+      label: Modpack Version
+      description: What version of the pack are you using?
+      placeholder: Pack version
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Please give a thorough explanation of what happened. Attach/Link relevant images/files in relation to the issue!
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any additional information you think might be useful. Please also let us know if you added any mods or altered the modpack here.
+      placeholder: Any additional information?
+    validations:
+      required: false
+  - type: input
+    id: logs
+    attributes:
+      label: latest.log
+      description: Please upload your 'latest.log' file to  https://gist.github.com/ and leave the link here. . Located in `/<instance name>/logs/`
+      placeholder: https://gist.github.com/
+    validations:
+      required: false

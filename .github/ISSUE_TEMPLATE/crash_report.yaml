@@ -1,0 +1,37 @@
+name: Crash Report
+description: File a crash report
+title: "[CRASH]: "
+labels: [ crash ]
+body:
+  - type: input
+    id: pack-version
+    attributes:
+      label: Modpack Version
+      description: What version of the pack are you using?
+      placeholder: Pack version
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Please give a thorough explanation of what happened. Attach/Link relevant images/files in relation to the issue!
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: input
+    id: crash-log
+    attributes:
+      label: Crash Log
+      description: Please upload your crash log to  https://gist.github.com/ and leave the link here. Located in `/<instance name>/crash-reports/`
+      placeholder: https://gist.github.com/
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any additional information you think might be useful. Please also let us know if you added any mods or altered the modpack here.
+      placeholder: Any additional information?
+    validations:
+      required: false
