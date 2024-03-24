@@ -1,6 +1,9 @@
 # DMT - ABB v0.1.1
 **Mod Updates**
 
+## Changed
+ - Updated window title to include the modpack name. Pack image will be updated closer to release
+
 ## Mod Updates
  - Amendments
  - CC: Tweaked
@@ -21,6 +24,7 @@
  - Sophisticated Storage
  - The Aether: Redux
  - Valhelsia Core
+
 
 # DMT - ABB v0.1.0
 **First Quest Update - Beta**
@@ -46,17 +50,20 @@
  - YUNG's Better End Island
  - YUNG's Better Nether Fortresses
 
+
 # DMT - ABB v0.0.3c
 **Yet another beta version... Fixing more bugs**
 
 ## Mod Changes
  - Rolled back Silent Gear due to hidden datapack changes that lead to server not being able to load
 
+
 # DMT - ABB v0.0.3b
 **Yet another beta version...**
 
 ## Mods Changed
  - Rolled back Valhelsia Core to fix crashes
+
 
 # DMT - ABB v0.0.3
 **Yet another beta version.**
@@ -99,6 +106,7 @@
  - The Aether: Redux
  - Twilight Flavors and Delight
  - Valhelsia Core
+
 
 # DMT - ABB v0.0.2
 **This is a beta version still. A full release will be after the first quests are added.**
@@ -155,6 +163,7 @@
  - The Aether: Redux
  - Thermal and Space
  - Tome of Blood Rebirth
+
 
 # DMT - ABB v0.0.1
 Initial version.

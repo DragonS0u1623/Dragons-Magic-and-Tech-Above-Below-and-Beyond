@@ -1,6 +1,9 @@
 # DMT - ABB v0.1.1
 **Mod Updates**
 
+## Changed
+ - Updated window title to include the modpack name. Pack image will be updated closer to release
+
 ## Mod Updates
  - Amendments
  - CC: Tweaked
