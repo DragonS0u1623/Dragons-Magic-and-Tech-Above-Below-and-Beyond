@@ -21,12 +21,22 @@ ServerEvents.tags('item', event => {
         '#alltheores:ore_hammers', 'minecraft:nether_star', 'bloodmagic:sanguinereverter', '#occultism:miners/ores', 'apotheosis:potion_charm'
     ])
 
+    // Add tags for Elite tier and above botany pots
+    const botanypots = event.get('botanypots:all_botany_pots').getObjectIds()
+    const whitelistElite = Ingredient.of(/.*botanypotstiers:elite_.*/)
+    const whitelistUltra = Ingredient.of(/.*botanypotstiers:ultra_.*/)
+    const whitelistCreative = Ingredient.of(/.*botanypotstiers:creative_.*/)
+    botanypots.forEach(botanypot => {
+        if (whitelistElite.test(botanypot)) event.add('botanypots:elite', botanypot)
+        else if (whitelistUltra.test(botanypot)) event.add('botanypots:ultra', botanypot)
+        else if (whitelistCreative.test(botanypot)) event.add('botanypots:creative', botanypot)
+    })
 })
 
 ServerEvents.tags('block', event => {
     event.add('buildinggadgets:blacklist/generic', '#forge:relocation_not_supported')
     event.add('ae2:blacklisted/spatial', '#forge:relocation_not_supported')
-    event.add('forge:relocation_not_supported', [/productivebees:.+/, 'minecraft:beehive', 'minecraft:bee_nest', /integrateddynamics:.+/, '@waystones'])
+    event.add('forge:relocation_not_supported', [/productivebees:.+/, 'minecraft:beehive', 'minecraft:bee_nest', '@waystones'])
     event.add('ars_nouveau:golem/budding', [
         'minecraft:budding_amethyst',
         'ae2:damaged_budding_quartz',

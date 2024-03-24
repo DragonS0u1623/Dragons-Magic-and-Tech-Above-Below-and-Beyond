@@ -1,3 +1,57 @@
+# DMT - ABB v0.1.1
+**Mod Updates**
+
+## Mod Updates
+ - Amendments
+ - CC: Tweaked
+ - ExtendedAE
+ - Forbidden and Arcanus
+ - Ice and Fire Spellbooks
+ - Iron's Spells 'n Spellbooks
+ - Lootr
+ - Model Gap Fix
+ - ModernFix
+ - Moonlight Lib
+ - MoreJS
+ - Quark
+ - Silent Gear
+ - Snow! Real Magic
+ - Sophisticated Backpacks
+ - Sophisticated Core
+ - Sophisticated Storage
+ - The Aether: Redux
+ - Valhelsia Core
+
+# DMT - ABB v0.1.0
+**First Quest Update - Beta**
+
+## Added
+ - All quest chapter groups and chapters will show up in editing mode, but most are currently empty and all changes to them will be outlined in the changelogs going forward
+ - Added Basic Storage chapter quests
+ - Added tags for botany pots tiers
+
+## Mod Updates
+ - Almost Unified
+ - Apotheotic Additions
+ - Apothic Attributes
+ - FTB Quests
+ - Mahou Tsukai
+ - Productive Bees
+ - Properly downgraded Silent Gear as I somehow messed that up in the last update...
+ - Sophisticated Backpacks
+ - Sophisticated Core
+ - Sophisticated Storage
+ - The Aether
+ - Towers of the Wild
+ - YUNG's Better End Island
+ - YUNG's Better Nether Fortresses
+
+# DMT - ABB v0.0.3c
+**Yet another beta version... Fixing more bugs**
+
+## Mod Changes
+ - Rolled back Silent Gear due to hidden datapack changes that lead to server not being able to load
+
 # DMT - ABB v0.0.3b
 **Yet another beta version...**
 
