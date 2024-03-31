@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "40B634497DB2FE1F", title: "Getting Started" }
+		{ id: "30B8F54D27B1877E", title: "Exploration" }
+		{ id: "65B3763580A0D943", title: "Storage" }
+		{ id: "5146F171E1663834", title: "Magic" }
+		{ id: "472ED381C181A4D5", title: "Tech" }
+		{ id: "38C87FADABD996C5", title: "Production" }
+	]
+}

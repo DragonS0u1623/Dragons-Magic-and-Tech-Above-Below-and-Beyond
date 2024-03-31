@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "game_progression"
+	group: "40B634497DB2FE1F"
+	id: "0C3ED6518C292CCB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Game Progression"
+}

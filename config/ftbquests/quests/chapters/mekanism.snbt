@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "472ED381C181A4D5"
+	id: "6A16E525CE94DD5A"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mekanism"
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_series"
+	group: "472ED381C181A4D5"
+	id: "10DBF0F9033F82E0"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "Thermal Series"
+}

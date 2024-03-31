@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "30B8F54D27B1877E"
+	id: "549F6F84FA96CABC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Twilight Forest"
+}

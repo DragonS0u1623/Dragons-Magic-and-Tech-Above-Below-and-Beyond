@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enderio"
+	group: "472ED381C181A4D5"
+	id: "03BB863E7656B4EE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "EnderIO"
+}
