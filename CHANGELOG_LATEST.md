@@ -1,26 +1,35 @@
-# DMT - ABB v0.1.1
-**Mod Updates**
+# DMT - ABB v0.2.0
+**Create Quests**
 
-## Changed
- - Updated window title to include the modpack name. Pack image will be updated closer to release
+## Added
+ - Create Chapter Quests
 
 ## Mod Updates
- - Amendments
- - CC: Tweaked
+ - Ad Astra Giselle Addon
+ - AE2 Insert/Export Card
+ - Apotheosis
+ - Apothic Attributes
+ - Applied Energistics 2 Wireless Terminals
+ - Botany Pots
+ - Create Central Kitchen
+ - Create Enchantment Industry
+ - Create Ore Excavation
+ - Create: Wizardry
+ - Dyenamics
+ - Embeddium
  - ExtendedAE
- - Forbidden and Arcanus
- - Ice and Fire Spellbooks
- - Iron's Spells 'n Spellbooks
+ - FTB Chunks
+ - Generators Galore
+ - Glodium
+ - JourneyMap
+ - Kiwi
  - Lootr
- - Model Gap Fix
- - ModernFix
- - Moonlight Lib
- - MoreJS
- - Quark
- - Silent Gear
+ - Mo' Enchantments
+ - Modonomicon
+ - Polymorph
+ - Productive Bees
+ - Resourceful Lib
  - Snow! Real Magic
- - Sophisticated Backpacks
- - Sophisticated Core
- - Sophisticated Storage
- - The Aether: Redux
- - Valhelsia Core
+ - Supplementaries
+ - Twilight's Flavors and Delight
+ - UtilitiX
