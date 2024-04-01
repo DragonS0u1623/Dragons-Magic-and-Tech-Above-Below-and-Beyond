@@ -1,35 +1,15 @@
-# DMT - ABB v0.2.0
-**Create Quests**
+# DMT - ABB v0.2.1
+**Datapack updates and more buckets**
 
-## Added
- - Create Chapter Quests
+## Changes
+ - Updated datapacks to add more curios slots
+
+## Mods Added
+ - More Buckets
 
 ## Mod Updates
- - Ad Astra Giselle Addon
  - AE2 Insert/Export Card
- - Apotheosis
- - Apothic Attributes
- - Applied Energistics 2 Wireless Terminals
- - Botany Pots
- - Create Central Kitchen
- - Create Enchantment Industry
- - Create Ore Excavation
- - Create: Wizardry
- - Dyenamics
- - Embeddium
  - ExtendedAE
- - FTB Chunks
- - Generators Galore
- - Glodium
- - JourneyMap
- - Kiwi
- - Lootr
- - Mo' Enchantments
  - Modonomicon
- - Polymorph
+ - Occultism
  - Productive Bees
- - Resourceful Lib
- - Snow! Real Magic
- - Supplementaries
- - Twilight's Flavors and Delight
- - UtilitiX
