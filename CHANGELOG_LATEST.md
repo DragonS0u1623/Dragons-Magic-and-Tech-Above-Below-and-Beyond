@@ -1,21 +1,30 @@
-# DMT - ABB v0.2.2
-**Removal of More Buckets due to server bugs**
+# DMT - ABB v0.2.3
+**Compacting JEI items**
 
-## Mods Removed
- - More Buckets
+## Changes
+ - Added custom kubejs recipes
+ - Hid many redundant items in JEI (mainly variants of a single item type that are usually just colored versions of the same item)
+ - Added Flux Networks and Hostile Neural Networks chapters
 
 ## Mod Updates
- - Additional Enchanted Miners
- - AE Additions
- - AE2 Insert/Export Card
+ - Amendments
+ - Applied Energistics 2
+ - Artifacts
  - Create Central Kitchen
  - Create Enchantment Industry
- - Dyenamics
+ - Create: Wizardry
+ - Cucumber Lib
+ - Embeddium
  - ExtendedAE
+ - Flux Networks
+ - Glodium
+ - Immersive Engineering
+ - Iron's Spells and Spellbooks
  - Modonomicon
- - Mysterious Mountain Lib
- - Mystical Agraditions
- - Mystical Agriculture
- - Occultism
- - Productive Bees
- - Supplementaries
+ - Refined Polymorphism
+ - Reliquary
+ - Snow! Real Magic!
+ - Tetra
+ - The Aether Redux
+ - Towers of the Wild
+ - Utilitarian
