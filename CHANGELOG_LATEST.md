@@ -1,30 +1,12 @@
-# DMT - ABB v0.2.3
-**Compacting JEI items**
+# DMT - ABB v0.3.0
+**Botania and Ars Nouveau Quests**
 
 ## Changes
- - Added custom kubejs recipes
- - Hid many redundant items in JEI (mainly variants of a single item type that are usually just colored versions of the same item)
- - Added Flux Networks and Hostile Neural Networks chapters
+ - Added Botania and Ars Nouveau quest chapters
+ - Updated Create quest chapter to include the crushing wheels
 
 ## Mod Updates
- - Amendments
- - Applied Energistics 2
- - Artifacts
- - Create Central Kitchen
- - Create Enchantment Industry
- - Create: Wizardry
- - Cucumber Lib
- - Embeddium
- - ExtendedAE
- - Flux Networks
- - Glodium
- - Immersive Engineering
- - Iron's Spells and Spellbooks
- - Modonomicon
- - Refined Polymorphism
+ - CC Tweaked
  - Reliquary
- - Snow! Real Magic!
- - Tetra
- - The Aether Redux
- - Towers of the Wild
- - Utilitarian
+ - Sophisticated Core
+ - Sophisticated Storage

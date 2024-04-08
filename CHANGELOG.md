@@ -1,3 +1,34 @@
+# DMT - ABB v0.3.0
+**Botania and Ars Nouveau Quests**
+
+## Changes
+ - Added Botania and Ars Nouveau quest chapters
+ - Updated Create quest chapter to include the crushing wheels
+
+## Mod Updates
+ - CC Tweaked
+ - Reliquary
+ - Sophisticated Core
+ - Sophisticated Storage
+
+# DMT - ABB v0.2.4
+
+## Mods Removed
+ - Extreme Reactors 2 Create Compatibility due to it being incompatible on server and causing a crash when in creative on servers
+
+## Mod Updates
+ - Aetheric Tetranomicon
+ - Artifacts
+ - Easy Piglins
+ - In Control!
+ - Industrial Foregoing
+ - Industrial Foregoing Souls
+ - Iron's Spells and Spellbooks
+ - Sophisticated Backpacks
+ - Sophisticated Core
+ - Sophisticated Storage
+ - Tetracelium
+
 # DMT - ABB v0.2.3
 **Compacting JEI items**
 
