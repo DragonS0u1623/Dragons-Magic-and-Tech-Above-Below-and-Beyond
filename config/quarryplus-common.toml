@@ -36,6 +36,8 @@
 	enableChunkLoader = true
 	#Trace quarry work
 	logAllQuarryWork = false
+	#Remove fluids after Chunk Destroyer finishes working. Recommended to set `false` as some issues are reported in #371
+	removeFluidAfterFinishedByCD = false
 
 #QuarryPlus Machines. Set true to enable machine or item.
 [machines]

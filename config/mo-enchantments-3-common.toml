@@ -2,6 +2,8 @@
 [Replanting]
 	#Should Replanting exist?
 	"Allow Replanting" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = false
 
 ["Anti-Water Bane"]
 	#Determines the amount of damage per Anti-Water Bane level it should deal
@@ -12,6 +14,8 @@
 	"Allow Anti-Water Bane" = true
 	#Should Anti-Water Bane be incompatible with Impaling?
 	"Incompatible with Impaling" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
 ["Oath of the Nose"]
 	#Determines the amount of damage per Oath of the Nose level it should deal
@@ -38,8 +42,18 @@
 	"Allow Frost" = true
 	#Should Frost be incompatible with Flame?
 	"Incompatible with Flame" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
-["Curse of Voiding"]
-	#Should Curse of Voiding exist?
-	"Allow Curse of Voiding" = true
+[Shove]
+	#Determines the modifier of the push each level adds
+	"Push modifier" = 0.5
+	#Should Shove exist?
+	"Allow Shove" = true
+	#Should Shove be incompatible with Blaze Guard?
+	"Incompatible with Blaze Guard" = true
+	#Should Shove be incompatible with Chill Guard?
+	"Incompatible with Chill Guard" = true
+	#Should this enchantment be found on the Enchanting Table? 
+	"Find on Enchanting Table" = true
 

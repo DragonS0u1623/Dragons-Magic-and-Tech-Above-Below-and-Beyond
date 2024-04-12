@@ -231,6 +231,17 @@
         "value": 10000
       }
     },
+    "irons_spellbooks:eldritch_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "tetra:draw_strength": {
       "enabled": false,
       "min": {
@@ -394,6 +405,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "irons_spellbooks:eldritch_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "tetra:ability_cooldown": {

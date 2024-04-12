@@ -1,12 +1,4 @@
 
-["Curse of Demolition"]
-	#Determines the extra amount of uses that Curse of Demolition should take from an item
-	"Breaking amount" = 2.0
-	#Should Curse of Demolition exist?
-	"Allow Curse of Demolition" = true
-	#Should Curse of Demolition be incompatible with Unbreaking?
-	"Incompatible with Unbreaking" = true
-
 ["Ice Aspect"]
 	#Determines the amount of extra damage that Ice Aspect should do every second
 	"Ice damage" = 1.0
@@ -18,6 +10,8 @@
 	"Incompatible with Poison Aspect" = true
 	#Should Ice Aspect be incompatible with Fire Aspect?
 	"Incompatible with Fire Aspect" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
 [Lightness]
 	#Determines the amount of attack speed that each level of Lightness should add
@@ -28,6 +22,8 @@
 	"Incompatible with Reach" = true
 	#Should Lightness be incompatible with Sweeping Edge?
 	"Incompatible with Sweeping Edge" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
 [Reach]
 	#Determines the amount of Attack Reach that each level of Reach adds
@@ -38,12 +34,16 @@
 	"Incompatible with Sweeping Edge" = true
 	#Should Reach be incompatible with Lightness
 	"Incompatible with Lightness" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
 [Floating]
 	#Determines the amount of weight taken each level while elytra-flying with Floating
 	"Float amount" = 0.01
 	#Should Floating exist?
 	"Allow Floating" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
 [Bait]
 	#Determines the percentage per level of finding extra loot with Bait
@@ -54,12 +54,16 @@
 	"Only Fish" = false
 	#Should Bait exist?
 	"Allow Bait" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
 [Blocking]
 	#Determines the percentage of chance per level to block damage
 	"Block Chance" = 5.0
 	#Should Blocking exist?
 	"Allow Blocking" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = false
 
 [Boosting]
 	#Determines the amount of XP per level addedd upon killing an entity while using Boosting
@@ -70,12 +74,16 @@
 	"Incompatible with Looting" = true
 	#Should Boosting be incompatible with Blood Blade?
 	"Incompatible with Blood Blade" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
 ["Lava Walker"]
 	#Should Lava Walker exist?
 	"Allow Lava Walker" = true
 	#Should Lava Walker be incompatible with Frost Walker?
 	"Incompatible with Frost Walker" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = false
 
 [Spikes]
 	#Determines the amount of damage per level the attackers take upon hitting the shield
@@ -84,6 +92,8 @@
 	"Allow Spikes" = true
 	#Should Spikes be incompatible with Reflection?
 	"Incompatible with Reflection" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
 [Reflection]
 	#Determines the amount of base damage the reflected projectile should do. This is a modifier, so it will be multiplicated by the amount of damage the incoming projectile does, giving the final amount 
@@ -98,6 +108,8 @@
 	"Allow Reflection" = true
 	#Should Reflection be incompatible with Spikes?
 	"Incompatible with Spikes" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
 [Acceleration]
 	#Determines the initial divider of the distance to determine the increased damage of Acceleration. This number will be decreased based on the level
@@ -108,6 +120,8 @@
 	"Level changer" = 0.5
 	#Should Acceleration exist?
 	"Allow Acceleration" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
 [Enhancement]
 	#Determines the modifier per level for the XP to get when breaking blocks with Enhancement
@@ -120,12 +134,16 @@
 	"Incompatible with Fortune" = true
 	#Should Enhancement be incompatible with Auto-Smelting?
 	"Incompatible with Auto-Smelting" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
 [Length]
 	#Determines the amount of interaction reach increased by Length each level
 	"Length addition" = 0.5
 	#Should Length exist?
 	"Allow Length" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
 ["Blaze Guard"]
 	#Determines the duration of the fire applied for each level of Blaze Guard
@@ -134,6 +152,10 @@
 	"Allow Blaze Guard" = true
 	#Should Blaze Guard be incompatible with Chill Guard?
 	"Incompatible with Chill Guard" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
+	#Should Blaze Guard be incompatible with Shove
+	"Incompatible with Shove" = true
 
 [Soaring]
 	#Determines whether there should be a check to see if the elytra wearer isn't looking upwards to increase velocity. Disabling this makes fireworks unnecessary to keep flying with Soaring
@@ -144,6 +166,8 @@
 	"Speed increase" = 0.06
 	#Should Soaring exist?
 	"Allow Soaring" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = false
 
 ["Chill Guard"]
 	#Determines the amount of seconds each level of Chill Guard should freeze for
@@ -154,6 +178,10 @@
 	"Allow Chill Guard" = true
 	#Should Chill Guard be incompatible with Blaze Guard?
 	"Incompatible with Blaze Guard" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
+	#Should Chill Guard be incompatible with Shove
+	"Incompatible with Chill Guard" = true
 
 [Sensing]
 	#Should Sensing exist?
@@ -162,14 +190,6 @@
 	"Incompatible with Aqua Affinity" = true
 	#Should Sensing be incompatible with Respiration?
 	"Incompatible with Respiration" = false
-
-["Curse of Moonlight"]
-	#Determines the amount of seconds Curse of Moonlight takes to remove a single use of an item
-	"Moonlight Seconds" = 4.0
-	#Should Curse of Moonlight exist?
-	"Allow Curse of Moonlight" = true
-	#Determines whether Curse of Moonlight should be incompatible with Mending
-	"Incompatible with Mending" = true
-	#Should Curse of Moonlight be incompatible with Sunlight's Blessing?
-	"Incompatible with Sunlight's Blessing" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = false
 

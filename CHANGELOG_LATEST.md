@@ -1,12 +1,33 @@
-# DMT - ABB v0.3.0
-**Botania and Ars Nouveau Quests**
+# DMT - ABB v0.4.0
+**Getting even bigger**
 
 ## Changes
- - Added Botania and Ars Nouveau quest chapters
- - Updated Create quest chapter to include the crushing wheels
+ - Actually fixed mob spawns to remove Mekanism Additions baby mobs by default.
+ - Updated max spawns to adjust with more players
+ - Added a temporary datapack to fix the kubejs error caused by botany pots referencing items from Regions Unexplored, despite it not being in the pack
+ - Added Tips and Tricks quests
 
-## Mod Updates
- - CC Tweaked
- - Reliquary
- - Sophisticated Core
- - Sophisticated Storage
+## Mods Added
+ - AmbientSounds 5
+ - Diagonal Fences
+ - Diagonal Walls
+ - Diagonal Windows
+ - Energy Meter
+ - Falling Leaves
+ - Nebulus Cherry Blossom Tree
+ - Secret Paintings
+ - Sushi Go Crafting
+
+## Mods Updated
+ - Amendments
+ - Applied Energistics 2
+ - Bookshelf
+ - Dyenamics
+ - ExtendedAE
+ - Macaw's Bridges
+ - Macaw's Bridges - Biomes o Plenty
+ - Mo' Enchantments
+ - Moonlight Lib
+ - Occultism
+ - Reliquary Reincarnations
+ - Zeta

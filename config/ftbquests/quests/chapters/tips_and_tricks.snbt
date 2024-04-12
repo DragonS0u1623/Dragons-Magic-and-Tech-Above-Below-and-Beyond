@@ -6,6 +6,431 @@
 	id: "6AA87D8CEA2E1732"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "5263FC9AEF3D87F2"
+			rewards: [{
+				id: "3B0FF01C06A80660"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "heart"
+			size: 1.5d
+			subtitle: "Here's some tips to get you started"
+			tasks: [{
+				id: "36A27965210A80A1"
+				title: "This One's Free"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "050639DDC595C1DE"
+			rewards: [{
+				id: "4B3BE00170C5E01B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Preventing mob spawns"
+			tasks: [{
+				id: "45E0BB57737404DB"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "39D051A2658F02CF"
+			rewards: [{
+				id: "25AA3C17310E1EE4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Speeding up machines"
+			tasks: [{
+				id: "1F54CB0092D2AD8D"
+				item: {
+					Count: 1b
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"050639DDC595C1DE"
+				"39D051A2658F02CF"
+				"5263FC9AEF3D87F2"
+				"04960AE877694C09"
+				"1457A7D04AA20F07"
+				"2E0CDE2A228907D9"
+				"6598D148E3EEEBF9"
+				"1346DB26CF689181"
+				"4DD83CD318FD531C"
+				"37A5851CE3CE15F0"
+				"51B413021181356A"
+			]
+			hide_dependency_lines: true
+			id: "61F0A685F28554D4"
+			rewards: [{
+				id: "25AD4B7380E0CA6C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "I'm out of tips for you"
+			tasks: [{
+				id: "28C266FEE3D31394"
+				title: "Tipped Out"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "04960AE877694C09"
+			rewards: [{
+				id: "4808798FC01E6E00"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Telling you all the foods you can make"
+			tasks: [{
+				id: "3BC1162B7D768431"
+				item: "cookingforblockheads:recipe_book"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "51B413021181356A"
+			rewards: [{
+				id: "33143DF2A228290B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Do you have a minute to talk about our lord and savior Notch?"
+			tasks: [{
+				id: "0EC9FFBB3F82954A"
+				item: {
+					Count: 1b
+					id: "utilitarian:no_soliciting_banner"
+					tag: {
+						BlockEntityTag: {
+							Patterns: [{
+								Color: 14
+								Pattern: "cr"
+							}]
+							id: "utilitarian:no_soliciting_banner"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "No Soliciting!"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "6C6B441A07B09635"
+			rewards: [{
+				id: "3AF8F3678E87B761"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Fishing rod not included"
+			tasks: [
+				{
+					id: "46A037F696C11404"
+					item: "aquaculture:tackle_box"
+					type: "item"
+				}
+				{
+					id: "3F8C7CD73BFE92F1"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+				{
+					id: "5CDB7E2EC7B0EE97"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+				{
+					id: "1F06C005CFD92168"
+					item: "aquaculture:iron_hook"
+					type: "item"
+				}
+			]
+			title: "Gone Fishing"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C6B441A07B09635"]
+			id: "12BE23CCE5A2E5D2"
+			rewards: [{
+				id: "01A473DC328AE11F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43C17A1B631A0F3F"
+				item: {
+					Count: 1b
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["12BE23CCE5A2E5D2"]
+			id: "652D55C495DC020E"
+			rewards: [{
+				id: "10084C4D7A87CD82"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "41B27E4D504AC100"
+				item: {
+					Count: 1b
+					id: "aquaculture:gold_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["652D55C495DC020E"]
+			id: "037BC0805E537C5C"
+			rewards: [{
+				id: "7F706BD939722389"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "126BBE8D4C9713CD"
+				item: {
+					Count: 1b
+					id: "aquaculture:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["037BC0805E537C5C"]
+			id: "37A5851CE3CE15F0"
+			rewards: [{
+				id: "3377662E69284439"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The \"ultimate\" fishing rod"
+			tasks: [{
+				id: "5AA494742FAF0CD9"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["04960AE877694C09"]
+			id: "279D6E303E97C108"
+			rewards: [
+				{
+					count: 2
+					id: "23A2F4AE1CB554BA"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "68CEF42F7FA76C2D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Cooking everything"
+			tasks: [{
+				id: "039BBE2A7C839BD2"
+				item: "cookingforblockheads:crafting_book"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["279D6E303E97C108"]
+			id: "317B1127C34D06C0"
+			rewards: [{
+				id: "0E5A75C53F4D6F4F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "Building your dream kitchen"
+			tasks: [{
+				id: "328E20B06BF1AA5A"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["317B1127C34D06C0"]
+			id: "3822A42A7C7BAD02"
+			rewards: [{
+				id: "1C31852FE56F26CA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "466E2198DBC528B2"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["317B1127C34D06C0"]
+			id: "1346DB26CF689181"
+			rewards: [{
+				id: "6E234F25F274FE11"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "22315429A95DA637"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["317B1127C34D06C0"]
+			id: "34E254CFD78C63F8"
+			rewards: [{
+				id: "366EBC48369438E5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2DF6D7868E110D2E"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["34E254CFD78C63F8"]
+			id: "6598D148E3EEEBF9"
+			rewards: [{
+				id: "40246CDF1EFE2A97"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0086A99D4D96DDCE"
+				item: "cookingforblockheads:heating_unit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3822A42A7C7BAD02"]
+			id: "2E0CDE2A228907D9"
+			rewards: [{
+				id: "4A69F8F9205A3837"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "195C1EF5C9CAF830"
+				item: "cookingforblockheads:ice_unit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["317B1127C34D06C0"]
+			id: "1457A7D04AA20F07"
+			rewards: [{
+				id: "5B2297FEAEAF2D30"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Unlimited Milk"
+			tasks: [{
+				id: "191D517E3697A5BB"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["317B1127C34D06C0"]
+			id: "4DD83CD318FD531C"
+			rewards: [{
+				id: "260B1FD4C5A67234"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "372FA2610939EB7A"
+					item: "cookingforblockheads:counter"
+					type: "item"
+				}
+				{
+					id: "374B4F74B5F3BCD9"
+					item: "cookingforblockheads:corner"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+	]
 	title: "Tips and Tricks"
 }

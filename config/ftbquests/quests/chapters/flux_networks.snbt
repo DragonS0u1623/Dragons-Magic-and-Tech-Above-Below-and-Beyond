@@ -6,6 +6,150 @@
 	id: "6DA82DA7030FD72F"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: [
+				"Flux dust will be the basis of the entirety of flux networks."
+				"Everything will require flux dust in some capacity."
+				""
+				"To get flux dust you need to first dig to bedrock, then place a block of obsidian 2 blocks above it so there's a 1 block of space between. Drop redstone under the obsidian and right click the obsidian to make flux dust. "
+				"Tip: Once you make your first flux block you can use &eProductive Bees&r to mass produce the rest."
+			]
+			id: "066D8D6DC66A12D9"
+			rewards: [{
+				id: "2511A26224B53D59"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "The base of everything flux"
+			tasks: [{
+				id: "72660C56EDA85720"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["066D8D6DC66A12D9"]
+			id: "08CDFE73C319AC52"
+			rewards: [{
+				id: "5212B6B6A571C7DC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "517FCA33B0CE27EB"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["08CDFE73C319AC52"]
+			id: "661EA9DA92F2A24E"
+			rewards: [{
+				id: "6E5A06B72EF174C5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "26D1ACA4D94DA164"
+				item: "fluxnetworks:flux_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["661EA9DA92F2A24E"]
+			id: "11204CC71B9A14CF"
+			rewards: [{
+				id: "1483EF00724E6F6E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Wirelessly configuring your networks"
+			tasks: [{
+				id: "2B84D46105CFEB8D"
+				item: "fluxnetworks:flux_configurator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["661EA9DA92F2A24E"]
+			id: "2E174787C73D9457"
+			rewards: [{
+				id: "7F62B38DF0640021"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "15A556B0FAC323E7"
+				item: "fluxnetworks:basic_flux_storage"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["661EA9DA92F2A24E"]
+			id: "6296988F6AC850E5"
+			rewards: [{
+				id: "7594023F18AE867F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Adding power to your network"
+			tasks: [{
+				id: "0EE6818A8A3CF3E2"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["661EA9DA92F2A24E"]
+			id: "3AD57C5466E0B974"
+			rewards: [{
+				id: "2AEB7605E6FF91A0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Powering blocks from your network"
+			tasks: [{
+				id: "3369A04A18510997"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["661EA9DA92F2A24E"]
+			id: "3196BA536046FADD"
+			rewards: [{
+				id: "78369246D6125FB9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Wireless charging"
+			tasks: [{
+				id: "1D26A5CDB0034DAD"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Simple wireless power"]
 	title: "Flux Networks"
 }

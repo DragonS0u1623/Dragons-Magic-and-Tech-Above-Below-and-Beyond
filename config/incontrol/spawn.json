@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "mod": ["mekanismadditions"],
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mincount": {
+            "amount": 50,
+            "hostile": true,
+            "perplayer": true
+        },
+        "spawner": false,
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:skeleton", "minecraft:zombie"],
+        "mincount": {
+            "amount": 10,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": ["ars_nouveau:wilden_stalker", "ars_nouveau:wilden_hunter", "ars_nouveau:wilden_guardian"],
+        "mincount": {
+            "amount": 5,
+            "perplayer": true
+        },
+        "result": "deny"
+    }
+]

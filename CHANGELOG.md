@@ -1,3 +1,65 @@
+# DMT - ABB v0.4.0
+**Getting even bigger**
+
+## Changes
+ - Actually fixed mob spawns to remove Mekanism Additions baby mobs by default.
+ - Updated max spawns to adjust with more players
+ - Added a temporary datapack to fix the kubejs error caused by botany pots referencing items from Regions Unexplored, despite it not being in the pack
+ - Added Tips and Tricks quests
+
+## Mods Added
+ - AmbientSounds 5
+ - Diagonal Fences
+ - Diagonal Walls
+ - Diagonal Windows
+ - Energy Meter
+ - Falling Leaves
+ - Nebulus Cherry Blossom Tree
+ - Secret Paintings
+ - Sushi Go Crafting
+
+## Mods Updated
+ - Amendments
+ - Applied Energistics 2
+ - Bookshelf
+ - Dyenamics
+ - ExtendedAE
+ - Macaw's Bridges
+ - Macaw's Bridges - Biomes o Plenty
+ - Mo' Enchantments
+ - Moonlight Lib
+ - Occultism
+ - Reliquary Reincarnations
+ - Zeta
+
+# DMT - ABB v0.3.1b
+ - Rolled back Curios API due to causing server crashes
+
+# DMT - ABB v0.3.1
+**Fixing Hostile Neural Networks Quests and Angel Ring**
+
+## Changes
+ - Updated config for spawns to remove baby mobs added by Mekanism Additions
+ - Reduced the amount of hostile mobs that can be spawned at a time in the overworld to 50 by default
+ - Fixed Hostile Neural Network data model quests to properly check for the correct NBT tags
+
+## Mods Added
+ - Callable Horses
+ - Chimes
+ - Creative Crafter
+ - Jump over Fences
+ - MrCrayfish's Furniture Mod
+ - Potions Master
+ - Sky Villages
+
+## Mods Removed
+ - Create: Balanced Flight
+
+## Mod Updates
+ - Artifacts
+ - Create: Steam 'n' Rails
+ - Curios API
+
 # DMT - ABB v0.3.0
 **Botania and Ars Nouveau Quests**
 

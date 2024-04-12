@@ -8,6 +8,8 @@
 	"Allow Execution" = true
 	#Determines the possibility per level of Execution to drop a head of the mob/player killed. Set to 0 to never apply or to 100 to always apply.
 	"Head Drop Chance" = 0.5
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = false
 
 [Wave]
 	#Determines wether the wave enchantment should show particles
@@ -24,6 +26,8 @@
 	"Incompatible with Riptide" = true
 	#Should Wave not work in the nether?
 	"Doesn't work in Nether" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = false
 
 ["Poison Aspect"]
 	#Determines the amount of ticks Poison Aspect should poison for
@@ -34,22 +38,28 @@
 	"Incompatible with Fire Aspect" = true
 	#Should Poison Aspect be incompatible with Ice Aspect?
 	"Incompatible with Ice Aspect" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
 [Auto-Smelting]
 	#Should Auto Smelting drop additional xp? (Not much)
 	"Drop extra xp" = true
 	#Should Auto-Smelting exist?
 	"Allow Auto Smelting" = true
-	#Should Auto-Smelting be incompatible with Fortune? 
-	"Incompatible with Fortune" = true
 	#Should Auto-Smelting be incompatible with Enhancement?
 	"Incompatible with Enhancement" = true
+	#Should Auto-Smelting be incompatible with Fortune? 
+	"Incompatible with Fortune (Beta)" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
 [Rebirth]
 	#How much damage should Rebirth do to a shield?
 	"Rebirth Damage" = 50.0
 	#Should Rebirth exist?
 	"Allow Rebirth" = false
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = false
 
 [Stunning]
 	#How many ticks should Stunning slow for? (set to 0 to disable its slow effect)
@@ -62,6 +72,8 @@
 	"Stunning Cooldown" = 10.0
 	#Should Stunning exist?
 	"Allow Stunning" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = false
 
 [Agility]
 	#This value determines the percentage of speed that Agility should add
@@ -74,18 +86,8 @@
 	"Incompatible with Jumper" = true
 	#Should Agility be incompatible with Swift Sneak?
 	"Incompatible with Swift Sneak" = true
-
-["Curse of Slowness"]
-	#This value determines the percentage of speed that Curse of Slowness should remove
-	"Slowness percentage" = 15.0
-	#Should Curse of Slowness exist?
-	"Allow Curse of Slowness" = true
-	#Should Curse of Slowness be incompatible with Agility?
-	"Incompatible with Agility" = true
-	#Should  Curse of Slowness be incompatible with Jumper?
-	"Incompatible with Jumper" = true
-	#Should  Curse of Slowness be incompatible with Swift Sneak?
-	"Incompatible with Swift Sneak" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = false
 
 ["Blood Blade"]
 	#Determines the amount of HP divided by 3 that Blood Blade will recuperate each level
@@ -96,6 +98,8 @@
 	"Incompatible with Boosting" = true
 	#Should Blood Blade be incompatible with Looting?
 	"Incompatible with Looting" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 
 ["Sunlight's Blessing"]
 	#Determines the amount of seconds Sunlight's Blessing takes to repair a single use of an item
@@ -106,6 +110,8 @@
 	"Incompatible with Mending" = true
 	#Should Sunlight's Blessing be incompatible with Curse of Moonlight?
 	"Incompatible with Curse of Moonlight" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = false
 
 [Jumper]
 	#Determines the amount of jump boost (in blocks) that Jumper should add
@@ -118,6 +124,8 @@
 	"Incompatible with Curse of Slowness" = true
 	#Should Jumper be incompatible with Swift Sneak?
 	"Incompatible with Swift Sneak" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = false
 
 ["Pain Power"]
 	#Determines the HP percentage at which Pain Power should apply its effects
@@ -128,4 +136,6 @@
 	"Should apply Resistance" = true
 	#Should Pain Power exist?
 	"Allow Pain Power" = true
+	#Should this enchantment be found on the Enchanting Table?
+	"Find on Enchanting Table" = true
 

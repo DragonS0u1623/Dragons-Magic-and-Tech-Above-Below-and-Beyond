@@ -6,6 +6,837 @@
 	id: "54236C56C16ADE77"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: ["Create is an immersive tech mod that is centralized on rotational energy. Besides being an amazing early game automation system, many of the items in create also have other utilities like being able to flatten ingots into sheets, roll them into wires or rods, or crush ores to double the output. This chapter will help to guide you through the basics and the important items from the mod. If at any point you are lost, the mod has the best in-game guide in the form of the Ponder system. Hold **W** on any item from Create to view the Ponder scene that serves as a guide to how it functions and how to use it."]
+			id: "6B3DC3461909D1BA"
+			rewards: [{
+				id: "512917247D256DED"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "All about rotation"
+			tasks: [{
+				id: "5BAAC4A8EAF13496"
+				title: "Intro to Create"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B3DC3461909D1BA"]
+			id: "5F437857FF726BFD"
+			rewards: [{
+				id: "3D84AF1B730DB41E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The first steps to Create"
+			tasks: [{
+				count: 32L
+				id: "042354A2E756EE3B"
+				item: {
+					Count: 1b
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:ingots/andesite_alloy)"
+					}
+				}
+				title: "32x Andesite Alloy"
+				type: "item"
+			}]
+			title: "32x Andesite Alloy"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B3DC3461909D1BA"]
+			id: "774EE2DECD57D5BD"
+			rewards: [{
+				id: "038440C669747A1C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 8L
+				id: "2921582D924E34F1"
+				item: {
+					Count: 1b
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(biomesoplenty:rose_quartz_chunk)item(create:rose_quartz))"
+					}
+				}
+				title: "8x Rose Quartz"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["774EE2DECD57D5BD"]
+			id: "4DA901A899C2279E"
+			rewards: [{
+				id: "2CFD3E475F761A8D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "377F806649CAD4BD"
+				item: {
+					Count: 1b
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:polished_rose_quartz)"
+					}
+				}
+				title: "8x Polished Quartz"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F437857FF726BFD"]
+			id: "21335A910D5124C6"
+			rewards: [{
+				id: "0E5A7201BD0D94F8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "49F797CF731912C2"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F437857FF726BFD"]
+			id: "2F3E6FC1A7116B30"
+			rewards: [{
+				id: "2286A4EC997D1D50"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C798CEEF63D6ABB"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F437857FF726BFD"]
+			id: "63E08D1E256CF3C2"
+			rewards: [{
+				id: "2B3B4D6B96D9BB0F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3B7489B6F912748A"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63E08D1E256CF3C2"]
+			id: "1825214BEF842D23"
+			rewards: [{
+				id: "2074A7165BFEF29A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "475CC7D4FB4A0309"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F437857FF726BFD"]
+			id: "0FC8D7D8D439B38B"
+			rewards: [{
+				id: "7C70DB9983356EF2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "41AFB0559620F8B4"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F437857FF726BFD"]
+			id: "29194EA3416F906C"
+			rewards: [{
+				id: "2668A9B763790206"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Rotating builds"
+			tasks: [{
+				id: "51BA55151ADA07AC"
+				item: "create:radial_chassis"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F437857FF726BFD"]
+			id: "3595CFF42D0C7ECE"
+			rewards: [{
+				id: "6191FB0A878B7034"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5548F29B042B7A27"
+				item: "create:linear_chassis"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F437857FF726BFD"]
+			id: "650EAC30788EE1DA"
+			tasks: [{
+				count: 8L
+				id: "1EAA30155B62949B"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["650EAC30788EE1DA"]
+			id: "7D6BA85AF55455F2"
+			rewards: [{
+				id: "26E4B7495AEAEB46"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Water power!"
+			tasks: [{
+				id: "2E03E59CB985C140"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["650EAC30788EE1DA"]
+			id: "35217448F52141F4"
+			rewards: [{
+				id: "7910468668DAAC4B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3ED71CD01736ABFD"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["650EAC30788EE1DA"]
+			id: "67ED8B8CBBC311F1"
+			rewards: [{
+				id: "7E2C84C9AE15A1D3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E61C7E26EB18154"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["650EAC30788EE1DA"]
+			id: "128E212FA27C79AE"
+			rewards: [{
+				id: "219EFD3CC0347730"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4CBD7967C0573230"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5F437857FF726BFD"]
+			id: "255DA266424DFB46"
+			rewards: [{
+				id: "0BD200A01F8CFA83"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Tier 1 casings"
+			tasks: [{
+				id: "52CF296AEFF7F7FA"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["255DA266424DFB46"]
+			id: "08F8A0BBD129951B"
+			rewards: [{
+				id: "56BA9593CE1FF51C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Automated Right Click"
+			tasks: [{
+				id: "6793281BBCAEC922"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["255DA266424DFB46"]
+			id: "0492202AF7707AEA"
+			rewards: [{
+				id: "2654D1796039132E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2CA49F77B8566078"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["255DA266424DFB46"]
+			id: "69C081179EADA94A"
+			rewards: [{
+				id: "061C35726358A5B8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "39E86BF952C75EBD"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["255DA266424DFB46"]
+			id: "078F9B8131B3C8ED"
+			rewards: [{
+				id: "5267B7F2623632F3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Blowing away the competition"
+			tasks: [{
+				id: "5BFD2417EE4F9F11"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["255DA266424DFB46"]
+			id: "56530BE36F2FA700"
+			tasks: [{
+				id: "3E91AC64825E938C"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["56530BE36F2FA700"]
+			id: "595E0907619FB0D6"
+			rewards: [{
+				id: "2F243A9DDB468908"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A better chain drive"
+			tasks: [{
+				id: "5DE6CBDDF1C5215B"
+				item: "create:adjustable_chain_gearshift"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["255DA266424DFB46"]
+			id: "3F0A3FEB94DFAF14"
+			rewards: [{
+				id: "374292AD5FDBA219"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3B5E20C4F389304D"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["255DA266424DFB46"]
+			id: "71ECFFA8BDE9AB3D"
+			rewards: [{
+				id: "672051C8ACB6BC5E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0432A76445DBD6EC"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["255DA266424DFB46"]
+			id: "2529DAF098F47225"
+			rewards: [{
+				id: "2FC97138DF1D1A43"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "25BDCA32DA2E3B6F"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["255DA266424DFB46"]
+			id: "1F3BE905548CE999"
+			rewards: [{
+				id: "408D2BD050352B1C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7370A75F7069D9CA"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["255DA266424DFB46"]
+			id: "7474A68C9D8EE44C"
+			rewards: [{
+				id: "184D0F51A3144327"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Moving elevators"
+			tasks: [{
+				id: "397B787E9FF5FEEC"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["255DA266424DFB46"]
+			id: "787136D730043AD3"
+			rewards: [{
+				id: "5F4AA1BFD9107679"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Stationary item buffer"
+			tasks: [{
+				id: "62D8E136254792C5"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["787136D730043AD3"]
+			id: "3CE050B8124ADF4F"
+			rewards: [{
+				id: "4FA756408A0F7D69"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "63420F228C86E2EA"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["255DA266424DFB46"]
+			id: "3B70FDAB5BF94FE8"
+			rewards: [{
+				id: "35BDB25282F74FC9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Tier 2 casings"
+			tasks: [{
+				id: "04A9A963266823AF"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["255DA266424DFB46"]
+			id: "1144B58E9186FE83"
+			rewards: [{
+				id: "652DCA17CA6B3D43"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Flattening ingots to plates"
+			tasks: [{
+				id: "2302304EA33A73D2"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1144B58E9186FE83"]
+			id: "44B8F26B57433B85"
+			rewards: [{
+				id: "031EC6C3036E4467"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Teaching blocks to stick together"
+			tasks: [{
+				id: "30EA7B3D6481FE4B"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1144B58E9186FE83"]
+			description: [
+				"Blaze Burners are a great source of heat for mid to late game. To get a blaze burner you first need to make the empty burner, then you right click a blaze with the empty burner to catch the blaze."
+				"Blaze burners will burn any combustable fuel to generate heat, and can be given straws to accept liquid fuels like lava."
+			]
+			id: "4C5DC3C3201A104A"
+			rewards: [{
+				id: "471CD6C59D0CB1F4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Using Blaze Power for Heat"
+			tasks: [{
+				id: "06998D4EDA026DDA"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1144B58E9186FE83"]
+			id: "540D7DB55C297E37"
+			rewards: [{
+				id: "1CDE0C30574F3C28"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Solid and Liquid recipes"
+			tasks: [{
+				id: "2B38A90211AEE119"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B70FDAB5BF94FE8"]
+			id: "19492069B74B48A0"
+			rewards: [{
+				id: "79C89CA9844FBD3C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Time to drain the nether of lava"
+			tasks: [{
+				id: "2B676D84613C5B9F"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3B70FDAB5BF94FE8"]
+			id: "4D83BDC83DB94702"
+			rewards: [{
+				id: "3729E271F9636C3D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "23D95461AAE2712A"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3B70FDAB5BF94FE8"]
+			id: "4D6E6894E9D84234"
+			rewards: [{
+				id: "19913BC669D7F797"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Automatic bucket filling"
+			tasks: [{
+				id: "41F43923806F7676"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D6E6894E9D84234"]
+			id: "240D01717713EF3C"
+			rewards: [{
+				id: "3EEB0F7181E26AA7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A blaze's favorite snack"
+			tasks: [{
+				id: "2E83873A2397022A"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["540D7DB55C297E37"]
+			id: "540FA16E442D38FF"
+			rewards: [{
+				id: "389AD6E28E0821BA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7268B0307EEC4065"
+				item: {
+					Count: 1b
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:ingots/brass)"
+					}
+				}
+				title: "Brass Ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3B70FDAB5BF94FE8"
+				"540FA16E442D38FF"
+			]
+			id: "226006E9365CA060"
+			rewards: [{
+				id: "66B1721E39394A1C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Tier 3 casings"
+			tasks: [{
+				id: "312D7C25EE703816"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["540FA16E442D38FF"]
+			id: "69C138D187BE72CB"
+			rewards: [{
+				id: "23F893C76484AF97"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "458B7D29709A8CB5"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["540FA16E442D38FF"]
+			id: "74FE5F758603EE6C"
+			rewards: [{
+				id: "17508A3526511E63"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "21F6686DA4E00098"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["226006E9365CA060"]
+			id: "26BA82E3679E7326"
+			rewards: [{
+				id: "1A389BBF474C6631"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Automatic Crafting"
+			tasks: [{
+				id: "535540A98EEA092B"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26BA82E3679E7326"]
+			id: "08478D9BF7FE6C01"
+			rewards: [{
+				id: "060D62C984832B8B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Full factorio vibes"
+			tasks: [{
+				id: "4EA110B2CE7A6849"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["226006E9365CA060"]
+			id: "2833B3F50BC774FB"
+			rewards: [{
+				id: "01D2E07B4703A1E1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "534263DF80129608"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1144B58E9186FE83"]
+			id: "71F3F2EAF48BBAB7"
+			optional: true
+			rewards: [{
+				id: "5C975592E44B2B68"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Seeing into the Matrix"
+			tasks: [{
+				id: "368A021F159DD4D4"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26BA82E3679E7326"]
+			id: "0B4CE9CC312D8E7E"
+			rewards: [{
+				id: "629E108034C47A9A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Crushing items and people"
+			tasks: [{
+				id: "6600D0E2D0F5A5F6"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+	]
+	subtitle: ["Rotational automation"]
 	title: "Create"
 }

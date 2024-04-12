@@ -7,5 +7,6 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
+	subtitle: ["Magical crops that can grow resources"]
 	title: "Mystical Agriculture"
 }

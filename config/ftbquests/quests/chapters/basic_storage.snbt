@@ -1430,5 +1430,6 @@
 			y: 3.5d
 		}
 	]
+	subtitle: ["All storage vanilla and beyond"]
 	title: "Basic Storage"
 }
