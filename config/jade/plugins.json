@@ -94,6 +94,9 @@
     "tesseract": true,
     "remove_default": true
   },
+  "projecte": {
+    "emc_provider": true
+  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,
@@ -103,6 +106,9 @@
     "slurry": true,
     "energy": true,
     "tooltip_renderer": true
+  },
+  "projectexpansion": {
+    "provider": true
   },
   "easy_villagers": {
     "villager": true,
@@ -144,6 +150,9 @@
   },
   "enderchests": {
     "hud": true
+  },
+  "mekanismcardboardtooltip": {
+    "cardboard_box": true
   },
   "extrastorage": {
     "crafter": true,

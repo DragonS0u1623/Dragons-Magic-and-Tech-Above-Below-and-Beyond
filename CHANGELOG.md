@@ -1,3 +1,172 @@
+# DMT - ABB v0.4.3
+
+## Changes
+ - Added Integrated Dynamics book to the Eccentric Tome
+ - Disabled Integrated Dynamics book on spawn (Applied after StarterKit so it had to be manually changed)
+
+## Mods Added
+ - Ad Tetra
+ - Boat Item View
+ - Distant Horizons
+ - Distracting Trims
+ - FTB Quests Optimizer
+ - Ice and Fire: Dragonseeker
+ - Immediately Fast
+ - Iron Jetpacks
+ - Just Hammers
+ - Visuality: Reforged
+ - What Is This Structure
+
+## Mods Updated
+ - Blood Magic
+ - Botany Pots
+ - Caelus API
+ - CC: Tweaked
+ - Clickable Advancements
+ - Clumps
+ - Collective
+ - Create: Steam 'n' Rails
+ - CreativeCore
+ - Curios API
+ - Customizable Elytra
+ - ExtendedAE
+ - FTB Library
+ - FTB Quests
+ - Glassential Renewed
+ - Iron's Spells and Spellbooks
+ - JourneyMap
+ - McJtyLib
+ - MEGA Cells
+ - Mekanism Cardboard Box Tooltip
+ - ModernFix
+ - MoreJS
+ - PacketFixer
+ - Polymorphic Energistics
+ - Productive Trees
+ - Rechiseled
+ - RFTools Base
+ - RFTools Builder
+ - RFTools Control
+ - RFTools Power
+ - RFTools Storage
+ - RFTools Utility
+ - Searchables
+ - Sophisticated Backpacks
+ - Sophisticated Core
+ - Sophisticated Storage
+ - Structure Gel API
+ - The Aether
+ - XNet
+
+# DMT - ABB v0.4.2
+**Expanding the experience**
+
+## Changes
+ - Removed temp datapack that fixed Regions Unexplored recipe errors in Botany Pots. Fix included in mod update
+ - Added Mek ore processing compat for Void Metal, Arc Metal, and Solar Metal from Silent Compat
+ - Updated Hellshelf recipe to allow the use of red nether bricks
+
+## Mods Added
+ - Additional Banners
+ - Advancement Plaques
+ - Better Archeology
+ - Better Than Mending
+ - Better Third Person C
+ - Better Tridents
+ - Chalk
+ - Controllable
+ - Dyenamics and Friends
+ - Integrated Crafting
+ - Integrated Dynamics
+ - Integrated Terminals
+ - Integrated Tunnels
+ - Legendary Tooltips
+ - Level Text Fix
+ - Mekanism Cardboard Box Tooltip
+ - More Axolotl Variants API
+ - More Axolotl Variants Mod
+ - Productive Trees
+ - SecurityCraft
+ - Simple Voice Chat
+ - Sound Physics Remastered
+
+## Mods Updated
+ - Additional Lanterns
+ - Almost Unified
+ - Amendments
+ - Better Chunk Loading
+ - Botany Pots
+ - Bumblezone
+ - Chipped
+ - Cognition
+ - Creative Core
+ - Curios API
+ - Deep Aether
+ - Dyenamics
+ - Embeddium
+ - Entangled
+ - FTB Chunks
+ - FTB Library
+ - FTB Quests
+ - FTB Teams
+ - Item Collectors
+ - Kiwi
+ - KubeJS
+ - ModernFix
+ - Modonomicon
+ - Quark
+ - Repurposed Structures
+ - Simple Magnets
+ - Smart Brain Lib
+ - The Aether: Redux
+ - Torchmaster
+ - Twilight's Flavors & Delight
+ - Utilitarian
+ - YUNG's Better Dungeons
+
+# DMT - ABB v0.4.1
+**Reducing console logs and expanding the mod list**
+
+## Mods Added
+ - Bumblezone
+ - Corail Woodcutter
+ - Everything is Copper
+ - Exchangers
+ - Game Stages
+ - Gravitational Modulating Additional Unit
+ - Item Stages
+ - Load My F***ing Tags
+ - Log Be Gone
+ - More Overlays
+ - Nature's Aura
+ - Neko's Enchanted Books
+ - No Farmland Trample
+ - No-Fly Zone
+ - No Villager Death Message
+ - Ranged Pumps
+ - SeasonHUD
+ - Serene Seasons
+ - Serene Seasons Fix
+ - Too Fast
+ - Useful Railroads
+ - Voidscape
+
+## Mods Updated
+ - Advanced Peripherals
+ - Ars Elemental
+ - Cooking for Blockheads
+ - FTB XMod Compat
+ - In Control
+ - ModernFix
+ - Modonomicon
+ - Quark
+ - Snow Under Trees
+ - The Aether
+ - The Aether: Redux
+ - Utilitarian
+
+Note: I added Game Stages and No Fly Zone for the moment, but effectively no changes will be made to the progression of the pack until the release of v1.0.0 at minimum. They are merely there while I both test with some progression and work out what works and feels the best for the modpack.
+
 # DMT - ABB v0.4.0
 **Getting even bigger**
 

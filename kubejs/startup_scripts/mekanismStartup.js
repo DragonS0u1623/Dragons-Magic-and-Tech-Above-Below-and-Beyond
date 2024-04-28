@@ -7,8 +7,11 @@
 */
 
 global.mekStackAdditions = [
-  {material:'crimson_iron', color:'#fc9aad', makeDust: false},
-  {material:'azure_silver', color:'#e89ffc', makeDust: false}
+  { material: 'crimson_iron', color: '#fc9aad', makeDust: false },
+  { material: 'azure_silver', color: '#e89ffc', makeDust: false },
+  { material: 'voidmetal', color: '#401b4b', makeDust: false },
+  { material: 'solarmetal', color: '#e7430e', makeDust: false },
+  { material: 'arcmetal', color: '#74a9cf', makeDust: false }
 ]
 
 // DO NOT EDIT BELOW THIS LINE

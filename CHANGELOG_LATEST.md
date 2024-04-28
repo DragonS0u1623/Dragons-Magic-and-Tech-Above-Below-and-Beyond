@@ -1,33 +1,59 @@
-# DMT - ABB v0.4.0
-**Getting even bigger**
+# DMT - ABB v0.4.3
 
 ## Changes
- - Actually fixed mob spawns to remove Mekanism Additions baby mobs by default.
- - Updated max spawns to adjust with more players
- - Added a temporary datapack to fix the kubejs error caused by botany pots referencing items from Regions Unexplored, despite it not being in the pack
- - Added Tips and Tricks quests
+ - Added Integrated Dynamics book to the Eccentric Tome
+ - Disabled Integrated Dynamics book on spawn (Applied after StarterKit so it had to be manually changed)
 
 ## Mods Added
- - AmbientSounds 5
- - Diagonal Fences
- - Diagonal Walls
- - Diagonal Windows
- - Energy Meter
- - Falling Leaves
- - Nebulus Cherry Blossom Tree
- - Secret Paintings
- - Sushi Go Crafting
+ - Ad Tetra
+ - Boat Item View
+ - Distant Horizons
+ - Distracting Trims
+ - FTB Quests Optimizer
+ - Ice and Fire: Dragonseeker
+ - Immediately Fast
+ - Iron Jetpacks
+ - Just Hammers
+ - Visuality: Reforged
+ - What Is This Structure
 
 ## Mods Updated
- - Amendments
- - Applied Energistics 2
- - Bookshelf
- - Dyenamics
+ - Blood Magic
+ - Botany Pots
+ - Caelus API
+ - CC: Tweaked
+ - Clickable Advancements
+ - Clumps
+ - Collective
+ - Create: Steam 'n' Rails
+ - CreativeCore
+ - Curios API
+ - Customizable Elytra
  - ExtendedAE
- - Macaw's Bridges
- - Macaw's Bridges - Biomes o Plenty
- - Mo' Enchantments
- - Moonlight Lib
- - Occultism
- - Reliquary Reincarnations
- - Zeta
+ - FTB Library
+ - FTB Quests
+ - Glassential Renewed
+ - Iron's Spells and Spellbooks
+ - JourneyMap
+ - McJtyLib
+ - MEGA Cells
+ - Mekanism Cardboard Box Tooltip
+ - ModernFix
+ - MoreJS
+ - PacketFixer
+ - Polymorphic Energistics
+ - Productive Trees
+ - Rechiseled
+ - RFTools Base
+ - RFTools Builder
+ - RFTools Control
+ - RFTools Power
+ - RFTools Storage
+ - RFTools Utility
+ - Searchables
+ - Sophisticated Backpacks
+ - Sophisticated Core
+ - Sophisticated Storage
+ - Structure Gel API
+ - The Aether
+ - XNet

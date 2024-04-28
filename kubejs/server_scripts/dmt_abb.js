@@ -10,6 +10,62 @@ ServerEvents.recipes(event => {
     event.shapeless("4x create:brass_ingot", ["3x #forge:ingots/copper", "#forge:ingots/zinc", "minecraft:fire_charge"])
     event.recipes.create.mixing("4x create:brass_ingot", ["3x #forge:ingots/copper", "#forge:ingots/zinc"]).heated()
 
+    event.remove( { id: 'apotheosis:hellshelf'})
+    event.shaped('apotheosis:hellshelf', 
+    [
+        'AAA',
+        'CBD',
+        'AAA'
+    ],
+    {
+        A: '#c:nether_bricks',
+        C: 'minecraft:blaze_rod',
+        B: '#forge:bookshelves',
+        D: Item.of('minecraft:potion', '{Potion:"minecraft:regeneration"}').strongNBT()
+    })
+
+    event.shaped('mekanism:creative_fluid_tank', 
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ], {
+            A: 'allthemodium:unobtainium_block',
+            B: 'allthemodium:vibranium_block',
+            C: 'mekanism:ultimate_fluid_tank'
+    })
+    event.shaped('mekanism:creative_chemical_tank', 
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ], {
+            A: 'allthemodium:unobtainium_block',
+            B: 'allthemodium:vibranium_block',
+            C: 'mekanism:ultimate_chemical_tank'
+    })
+
+    event.shaped(Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"mekanism:sulfuric_acid"}}]}}').strongNBT(), 
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ], {
+            A: 'mekanism:sulfuric_acid_bucket',
+            B: 'allthemodium:allthemodium_block',
+            C: 'mekanism:creative_fluid_tank'
+    })
+    event.shaped(Item.of('mekanism:creative_chemical_tank', '{mekData:{GasTanks:[{Tank:0b,stored:{amount:9223372036854775807L,gasName:"mekanism:sulfuric_acid"}}]}}').strongNBT(), 
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ], {
+            A: 'mekanism:sulfuric_acid_bucket',
+            B: 'allthemodium:allthemodium_block',
+            C: 'mekanism:creative_chemical_tank'
+    })
+
     event.shaped('pipez:infinity_upgrade', [
         'ABA',
         'BCB',

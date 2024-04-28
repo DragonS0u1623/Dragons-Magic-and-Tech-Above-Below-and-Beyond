@@ -125,6 +125,8 @@
   "expatternprovider:jade_chamber": null,
   "immersiveengineering:multiblock_tank": null,
   "immersiveengineering:multiblock_inventory": null,
+  "mekanismcardboardtooltip:cardboard_box": null,
+  "projecte:emc_provider": null,
   "apotheosis:spawner": null,
   "apotheosis:ench": null,
   "apotheosis:adventure": null,
@@ -143,6 +145,7 @@
   "reliquary:pedestal": null,
   "shetiphiancore:hud": null,
   "mysticalagradditions:infused_farmland": null,
+  "projectexpansion:provider": null,
   "mcjtylib:jadeaddons": null,
   "lootr:info": null,
   "lootr:inventory": null,
@@ -250,5 +253,6 @@
   "supplementaries:present": null,
   "supplementaries:safe": null,
   "supplementaries:hat_stand": null,
-  "enderchests:hud": null
+  "enderchests:hud": null,
+  "mekanismcardboardtooltip:cardboard_box": null
 }

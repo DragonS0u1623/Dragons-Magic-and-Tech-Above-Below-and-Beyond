@@ -7,6 +7,20 @@ ItemEvents.tooltip(event => {
         Text.of('§bThe End TO The Beyond')
     ])
 
+    event.add('enderchests:ender_chest', [
+        Text.of('Shift right click with dye to change the color'),
+        Text.of('Make private by shift right clicking with a diamond').aqua(),
+        Text.of('Make global by breaking while sneaking').gold(),
+        Text.of('Shift right click with an ender pearl to increase size by 3 or an eye of ender to increase by 9').green()
+    ])
+
+    event.add('endertanks:ender_tank', [
+        Text.of('Shift right click with dye to change the color'),
+        Text.of('Make private by shift right clicking with a diamond').aqua(),
+        Text.of('Make global by breaking while sneaking').gold(),
+        Text.of('Shift right click with an ender pearl to increase size by 3 or an eye of ender to increase by 9').green()
+    ])
+
     event.addAdvanced('mob_grinding_utils:rotten_egg', (stack, advanced, text) => {
         text.add(3, Text.of("Created from Cursed Chicken Feed").yellow())
     })

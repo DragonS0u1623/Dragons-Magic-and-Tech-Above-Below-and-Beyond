@@ -1,4 +1,5 @@
 ServerEvents.tags('item', event => {
+    event.add('c:nether_bricks', ['minecraft:nether_bricks', 'minecraft:red_nether_bricks'])
     event.add('minecraft:boats', /byg:\w+?_boat/)
     event.add('minecraft:chest_boats', /byg:.+?_chest_boat/)
     event.add('forge:cheese', '#forge:cheeses')
