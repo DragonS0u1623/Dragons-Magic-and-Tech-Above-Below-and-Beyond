@@ -6,17 +6,221 @@
 	id: "44EE978685AF79AC"
 	order_index: 7
 	quest_links: [ ]
-	quests: [{
-		description: ["The starting point of this mod is the basic computer. Once placed down you can right click it to enter the OS and use the terminal. The terminal has some basic linux/unix commands, which will be listed on the next page with their descriptions. Along with these basic commands there are also a few core programs that comes pre-installed in the universal &o&crom&r folder. Computers have 6 sides that peripherals can be attached to, which the next quest will describe the basic peripherals that the computer can detect. Additionally you can check out the ComputerCraft programming tutorials at https://www.computercraft.info/wiki/Tutorials"]
-		id: "0B4220460FB246A9"
-		tasks: [{
-			id: "07BF9219F9EFD6BF"
-			title: "Test"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: 0.5d
-	}]
+	quests: [
+		{
+			description: ["ComputerCraft is a mod all about adding actual computers to Minecraft and making them do things with APIs. If you're the programmer type you can make some incredible automations with these computers. The mod makes use of the Lua programming language for writing scripts. This questline will give the basics, and will link some tutorials as well, but the limits are genuinely as boundless as your imagination. The wiki page is a great place to start and check out all of the documentation for the various APIs the mod gives access to. https://www.computercraft.info/wiki/"]
+			id: "4F031013653E59D5"
+			rewards: [{
+				id: "70F3E5401E6DE494"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1D1F15AEA28FE00D"
+				title: "ComputerCraft"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4F031013653E59D5"]
+			description: [
+				"The starting point of this mod is the basic computer. Once placed down you can right click it to enter the OS and use the terminal. The terminal has some basic linux/unix commands, which will be listed on the next page with their descriptions. Along with these basic commands there are also a few core programs that comes pre-installed in the universal &o&crom&r folder. Computers have 6 sides that peripherals can be attached to, which the next quest will describe the basic peripherals that the computer can detect. Additionally you can check out the ComputerCraft programming tutorials at https://www.computercraft.info/wiki/Tutorials"
+				"{@pagebreak}"
+				"Basic commands"
+				"&o&ccd&r - Changes the current working directory of the shell, so you can do something else"
+				"&o&cls&r - Lists the contents of the working directory, with directories in green and files in white"
+				"&o&cmkdir&r - Creates an empty directory"
+				"&o&crm&r - Removes or deletes a folder or file"
+				"&o&ccp&r - Copies a file under a new name"
+				"&o&cmv&r - Moves a file to another path"
+			]
+			id: "685746CEC1A890C3"
+			rewards: [{
+				id: "67821866BD958244"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2C730DE2945C45CE"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["685746CEC1A890C3"]
+			description: ["The computer is only the start of the tools you have access to, as the mod also adds in several peripheral options for allowing the computer to interact with the world. The basic peripheral types are the &lPrinter&r, &lModem&r, &lDisk Drive&r, &lMonitor&r and &lTurtle&r, and Redstone can also be used as a peripheral via API. Mods can also add new detected peripherals like Mekanism's Fusion and Fission Reactor Logic Adapters."]
+			id: "624F658F3FD52248"
+			rewards: [{
+				id: "5CA4705DE716A0EC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "16C1D3F4EA330C16"
+				title: "Peripherals"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["624F658F3FD52248"]
+			description: ["The Monitor is a peripheral that's whole purpose is to be extra screenspace for displaying information or programs. Monitors can be placed next to each other in a rectangle up to a maximum size of 8 blocks wide by 6 blocks tall, acting like a single large-screen monitor. To access monitors from the computer you either have to call it directly with &o&cperipheral.call()&r or wrap the monitor with the Peripheral API, &o&clocal monitor = peripheral.wrap()&r"]
+			id: "489D292C33965A65"
+			rewards: [{
+				id: "0F44ECA47983D582"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "674E81869582DF16"
+				item: "computercraft:monitor_normal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["624F658F3FD52248"]
+			description: ["The Printer is a peripheral that just allows you to print out pages of text in different colors. Printers are accessed by wrapping them in the Peripheral API, &o&clocal printer = peripheral.wrap()&r and after that the printer variable has access to all of the Printer API functions."]
+			id: "76A11881A93F5778"
+			rewards: [{
+				id: "0C34BBA6136E979A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "48C83DCB961542D9"
+				item: "computercraft:printer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["624F658F3FD52248"]
+			description: ["The Disk Drive is a peripheral that allows access to portal data storage devices like the Floppy Disk or the pocket computer. The drives are accessed by wrapping them in the Peripheral API and then using the Disk API for reading the contents of the Floppy Disk or Pocket Computer inserted to the drive."]
+			id: "770A8C89252F1F34"
+			rewards: [{
+				id: "752BDB7723A7ABEF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "121D898C3D1A31C2"
+				item: "computercraft:disk_drive"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["624F658F3FD52248"]
+			description: ["The Modem is a peripheral that allows the creation of networks of computers. The wired Modem requires connected modems to be physically connected using Network Cables while Wireless and Ender Modems don't have this requirement. There are a few ways to connect and use a modem, the first of which is the Rednet API: &o&crednet.open()&r, &o&crednet.close()&r, &o&crednet.receive()&r, &o&crednet.broadcast()&r. The next would be to wrap it in the Peripheral API, &o&clocal modem = peripheral.wrap()&r, and the last would be to call them directly &o&cperipheral.call()&r"]
+			id: "28A0521916AF3F1A"
+			rewards: [{
+				id: "547A294F8B70F562"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "360EA848D2739B0D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(computercraft:wired_modem_full)item(computercraft:wired_modem)item(computercraft:wireless_modem_advanced)item(computercraft:wireless_modem_normal))"
+					}
+				}
+				title: "Any Modem"
+				type: "item"
+			}]
+			title: "Modem"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["624F658F3FD52248"]
+			description: ["The Turtle is for all intents and purposes a programmable robot. You can give it different peripherals or tools and program it to perform tasks like mine, chop trees, etc. They're programmed using the Tutle API, and can be wrapped with the Peripheral API to be used as a peripheral."]
+			id: "2CADD82F1B8F6CC9"
+			rewards: [{
+				id: "12D82F660FEE729A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4FE562C084C91CD8"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(computercraft:turtle))"
+					}
+				}
+				title: "Any Turtle"
+				type: "item"
+			}]
+			title: "Turtle"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2CADD82F1B8F6CC9"]
+			description: ["There are advanced variants of the computer, monitor, turtle and pocket computer which all give access to new programs and full access to the Color API. While these are not strictly necessary and almost everything can be done with a basic computer, it's still worth keeping in mind."]
+			id: "255C15CF2BFE79BA"
+			rewards: [{
+				id: "179497593B88F868"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "66610D835CAA190C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(computercraft:computer_advanced)item(computercraft:monitor_advanced))"
+					}
+				}
+				title: "Advanced Computer or Monitor"
+				type: "item"
+			}]
+			title: "Advanced Versions"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6CCD6790D8BEA8EB"]
+			description: [
+				"So you've made a fusion reactor, and you've now learned that it's going to require a lot of maintenance to keep running manually. Luckily you can automate the operation via the use of computers. To accomplish this you will need to make a Fusion Reactor Logic Adapter, and add it to the frame of your Fusion Reactor. Then place a computer next to the new Logic Adapter, and take note of which side. Now when you go into your computer you can call the Logic Adapter as a peripheral, and it will expose new functions for controlling your Fusion Reactor. The goal of the fusion reactor is to keep the Efficiency over 80% to prevent the Error Level from increasing and eventually shutting down the reactor. To raise the Efficiency, you have to update the Reactivity to match the Target Reactivity. In CC you get access to the Efficiency, Error Level and the current Reactivity but not the Target Reactivity. The next page will give a simple example automation script, and download instructions for it."
+				"{@pagebreak}"
+				"Example Script"
+				"{image:custom:textures/example_script.png width:100 height:100 align:center}"
+				"You can download the script directly to your computer with the command &cwget https://github.com/DragonS0u1623/Dragons-Magic-and-Tech-Above-Below-and-Beyond/blob/main/bfr.lua&r"
+			]
+			hide: true
+			id: "448CF440F265EF6D"
+			optional: true
+			rewards: [{
+				id: "3E822EB042C83B91"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "137CE5CA3D47B82A"
+				title: "Fusion Reactor Automation"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+	]
 	subtitle: ["Tricking rocks into thinking"]
 	title: "Computer Craft"
 }
