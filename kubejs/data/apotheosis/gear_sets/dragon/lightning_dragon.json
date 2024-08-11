@@ -1,0 +1,150 @@
+{
+    "weight": 40,
+    "mainhands": [
+        {
+            "weight": 3,
+            "stack": {
+                "item": "iceandfire:dragonbone_bow"
+            }
+        },
+        {
+            "weight": 3,
+            "stack": {
+                "item": "iceandfire:dragonbone_sword"
+            }
+        },
+        {
+            "weight": 3,
+            "stack": {
+                "item": "iceandfire:dragonbone_axe"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "iceandfire:dragonbone_pickaxe"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "iceandfire:dragonbone_shovel"
+            }
+        }
+    ],
+    "offhands": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:shield"
+            }
+        }
+    ],
+    "boots": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_electric_blue_boots"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_amythest_boots"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_copper_boots"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_black_boots"
+            }
+        }
+    ],
+    "leggings": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_electric_blue_leggings"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_amythest_leggings"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_copper_leggings"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_black_leggings"
+            }
+        }
+    ],
+    "chestplates": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_electric_blue_chestplate"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_amythest_chestplate"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_copper_chestplate"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_black_chestplate"
+            }
+        }
+    ],
+    "helmets": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_electric_blue_helmet"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_amythest_helmet"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_copper_helmet"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_black_helmet"
+            }
+        }
+    ],
+    "tags": [
+        "lightning_dragon"
+    ]
+}

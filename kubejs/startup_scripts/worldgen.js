@@ -1,12 +1,12 @@
 WorldgenEvents.remove(event => {
-    event.removeOres(props => {
-        props.blocks = [
-        "create:zinc_ore",
-        "create:deepslate_zinc_ore",
-        "occultism:silver_ore",
-        "occultism:silver_ore_deepslate",
-        "iceandfire:silver_ore",
-        "bigreactors:yellorite_ore"
+    event.removeOres(ores => {
+        ores.biomes = '#forge:is_overworld'
+        ores.worldgenLayer = 'underground_ores'
+        ores.blocks = [
+            /^create:.*zinc_ore/,
+            /^occultism:silver_ore.*/,
+            'iceandfire:silver_ore',
+            'bigreactors:yellorite_ore'
         ]
     })
 })

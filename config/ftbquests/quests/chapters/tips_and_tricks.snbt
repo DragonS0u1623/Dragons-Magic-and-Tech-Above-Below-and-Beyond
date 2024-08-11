@@ -52,7 +52,7 @@
 			tasks: [{
 				id: "1F54CB0092D2AD8D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tiab:time_in_a_bottle"
 					tag: { }
 				}
@@ -120,7 +120,7 @@
 			tasks: [{
 				id: "0EC9FFBB3F82954A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "utilitarian:no_soliciting_banner"
 					tag: {
 						BlockEntityTag: {
@@ -183,7 +183,7 @@
 			tasks: [{
 				id: "43C17A1B631A0F3F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquaculture:iron_fishing_rod"
 					tag: {
 						Damage: 0
@@ -205,7 +205,7 @@
 			tasks: [{
 				id: "41B27E4D504AC100"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquaculture:gold_fishing_rod"
 					tag: {
 						Damage: 0
@@ -227,7 +227,7 @@
 			tasks: [{
 				id: "126BBE8D4C9713CD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquaculture:diamond_fishing_rod"
 					tag: {
 						Damage: 0
@@ -250,7 +250,7 @@
 			tasks: [{
 				id: "5AA494742FAF0CD9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aquaculture:neptunium_fishing_rod"
 					tag: {
 						Damage: 0

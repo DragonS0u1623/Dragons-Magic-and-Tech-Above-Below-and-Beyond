@@ -1,0 +1,21 @@
+{
+    "parent": "dmt_abb:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "title": {
+            "translate": "custom.advancements.dark_souls.title"
+        },
+        "description": {
+            "translate": "custom.advancements.dark_souls.description"
+        },
+        "frame": "challenge",
+        "hidden": true
+    },
+    "criteria": {
+        "ancient_dragon_boss_gate": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

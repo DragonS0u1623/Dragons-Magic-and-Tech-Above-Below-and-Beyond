@@ -7,11 +7,12 @@
 */
 
 global.mekStackAdditions = [
-  { material: 'crimson_iron', color: '#fc9aad', makeDust: false },
-  { material: 'azure_silver', color: '#e89ffc', makeDust: false },
-  { material: 'voidmetal', color: '#401b4b', makeDust: false },
-  { material: 'solarmetal', color: '#e7430e', makeDust: false },
-  { material: 'arcmetal', color: '#74a9cf', makeDust: false }
+    { material: 'crimson_iron', color: '#fc9aad', makeDust: false },
+    { material: 'azure_silver', color: '#e89ffc', makeDust: false },
+    { material: 'voidmetal', color: '#401b4b', makeDust: true },
+    { material: 'solarmetal', color: '#e7430e', makeDust: true },
+    { material: 'arcmetal', color: '#74a9cf', makeDust: true },
+    { material: 'veridium', color: '#006ebd', makeDust: true }
 ]
 
 // DO NOT EDIT BELOW THIS LINE
@@ -22,38 +23,38 @@ const $Gas = Java.loadClass('mekanism.api.chemical.gas.Gas')
 const $GasBuilder = Java.loadClass('mekanism.api.chemical.gas.GasBuilder')
 
 StartupEvents.registry('item', event => {
-  const mekItems = ['clump', 'crystal', 'dirty_dust', 'shard']
-  function mekStack(name, color) {
-    mekItems.forEach(type => {
-      event.create(`${type}_${name}`)
-        .texture('layer0', 'mekanism:item/empty')
-        .texture('layer1', `mekanism:item/${type}`)
-        .texture('layer2', `mekanism:item/${type}_overlay`)
-        .color(1, color)
-        .tag(`mekanism:${type}s`)
-        .tag(`mekanism:${type}s/${name}`)
-    })
-  }
-  global.mekStackAdditions.forEach(entry => {
-    mekStack(entry.material, entry.color)
-    if (entry.makeDust) {
-      event.create(`dust_${entry.material}`)
-        .texture('layer0', 'mekanism:item/empty')
-        .texture('layer1', `mekanism:item/dust`)
-        .color(1, entry.color)
-        .tag(`forge:dusts`)
-        .tag(`forge:dusts/${entry.material}`)
+    const mekItems = ['clump', 'crystal', 'dirty_dust', 'shard']
+    function mekStack(name, color) {
+        mekItems.forEach(type => {
+            event.create(`${type}_${name}`)
+                .texture('layer0', 'mekanism:item/empty')
+                .texture('layer1', `mekanism:item/${type}`)
+                .texture('layer2', `mekanism:item/${type}_overlay`)
+                .color(1, color)
+                .tag(`mekanism:${type}s`)
+                .tag(`mekanism:${type}s/${name}`)
+        })
     }
-  })
+    global.mekStackAdditions.forEach(entry => {
+        mekStack(entry.material, entry.color)
+        if (entry.makeDust) {
+            event.create(`dust_${entry.material}`)
+                .texture('layer0', 'mekanism:item/empty')
+                .texture('layer1', `mekanism:item/dust`)
+                .color(1, entry.color)
+                .tag(`forge:dusts`)
+                .tag(`forge:dusts/${entry.material}`)
+        }
+    })
 })
 
 StartupEvents.registry('mekanism:slurry', event => {
-  global.mekStackAdditions.forEach(entry => {
-    event.createCustom(`clean_${entry.material}`, () => $Slurry($SlurryBuilder.clean().ore(`forge:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
-    event.createCustom(`dirty_${entry.material}`, () => $Slurry($SlurryBuilder.dirty().ore(`forge:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
-  })
+    global.mekStackAdditions.forEach(entry => {
+        event.createCustom(`clean_${entry.material}`, () => $Slurry($SlurryBuilder.clean().ore(`forge:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
+        event.createCustom(`dirty_${entry.material}`, () => $Slurry($SlurryBuilder.dirty().ore(`forge:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
+    })
 })
 
 StartupEvents.registry('mekanism:gas', event => {
-  event.createCustom(`neutron_gas`, () => $Gas($GasBuilder.builder()))
+    event.createCustom(`neutron_gas`, () => $Gas($GasBuilder.builder()))
 })

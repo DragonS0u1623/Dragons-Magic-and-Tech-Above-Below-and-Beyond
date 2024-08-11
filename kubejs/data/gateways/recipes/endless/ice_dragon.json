@@ -1,0 +1,31 @@
+{
+    "type": "gateways:gate_recipe",
+    "group": "gateways",
+    "pattern": [
+        "XXX",
+        "CAC",
+        "BBB"
+    ],
+    "key": {
+        "X": {
+            "tag": "forge:storage_blocks/scales/dragon/ice"
+        },
+        "A": {
+            "type": "forge:partial_nbt",
+            "item": "gateways:gate_pearl",
+            "nbt": {
+                "gateway": "gateways:basic/ice_dragon"
+            }
+        },
+        "B": {
+            "item": "iceandfire:dragon_bone_block"
+        },
+        "C": {
+            "item": "iceandfire:ice_dragon_heart"
+        }
+    },
+    "result": {
+        "item": "gateways:gate_pearl"
+    },
+    "gateway": "gateways:endless/ice_dragon"
+}

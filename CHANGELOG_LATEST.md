@@ -1,59 +1,34 @@
-# DMT - ABB v0.4.3
+# DMT - ABB v0.6.1
 
 ## Changes
- - Added Integrated Dynamics book to the Eccentric Tome
- - Disabled Integrated Dynamics book on spawn (Applied after StarterKit so it had to be manually changed)
-
-## Mods Added
- - Ad Tetra
- - Boat Item View
- - Distant Horizons
- - Distracting Trims
- - FTB Quests Optimizer
- - Ice and Fire: Dragonseeker
- - Immediately Fast
- - Iron Jetpacks
- - Just Hammers
- - Visuality: Reforged
- - What Is This Structure
+ - Added ComputerCraft quest chapter
+ - Changed Voidscape config to default to only allow bedrock teleporting in vanilla dimensions
 
 ## Mods Updated
- - Blood Magic
- - Botany Pots
- - Caelus API
- - CC: Tweaked
- - Clickable Advancements
- - Clumps
+ - Ad Astra: Giselle Addon
+ - Ars Elemental
+ - Ars Nouveau
+ - Botania
+ - Cognition
  - Collective
- - Create: Steam 'n' Rails
- - CreativeCore
- - Curios API
- - Customizable Elytra
- - ExtendedAE
- - FTB Library
- - FTB Quests
+ - Colorful Hearts
+ - Corail Woodcutter
+ - Enchantment Descriptions
  - Glassential Renewed
- - Iron's Spells and Spellbooks
- - JourneyMap
+ - Immediately Fast
+ - Integrated Tunnels
+ - Iron's Spells 'n Spellbooks
+ - Just Enough Items
+ - Kiwi
+ - Macaw's Furniture - Biomes O' Plenty
  - McJtyLib
- - MEGA Cells
- - Mekanism Cardboard Box Tooltip
- - ModernFix
- - MoreJS
- - PacketFixer
- - Polymorphic Energistics
- - Productive Trees
- - Rechiseled
+ - MmmMmmMmmMmm (Target Dummy)
+ - Occultism
+ - Powah!
+ - Quark
+ - Quest Additions
  - RFTools Base
- - RFTools Builder
- - RFTools Control
- - RFTools Power
- - RFTools Storage
- - RFTools Utility
- - Searchables
- - Sophisticated Backpacks
- - Sophisticated Core
- - Sophisticated Storage
- - Structure Gel API
- - The Aether
- - XNet
+ - Simple Voice Chat
+ - The Bumblezone
+ - Useful Railroads
+ - Zeta

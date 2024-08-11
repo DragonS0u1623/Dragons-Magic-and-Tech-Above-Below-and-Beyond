@@ -1,0 +1,35 @@
+{
+    "conditions": [
+        {
+            "modid": "iceandfire",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "entity": "iceandfire:dread_beast",
+    "variants": [],
+    "name": "entity.iceandfire.dread_beast",
+    "name_color": "#2FC7BE",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 1280,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "minecraft:rotten_flesh",
+        "count": 2
+    },
+    "trivia": "custom.trivia.dread_beast",
+    "fabricator_drops": [
+        {
+            "item": "iceandfire:dread_shard",
+            "count": 3
+        },
+        {
+            "item": "minecraft:bone",
+            "count": 2
+        }
+    ]
+}

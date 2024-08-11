@@ -1,0 +1,21 @@
+{
+    "parent": "dmt_abb:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_egg"
+        },
+        "title": {
+            "translate": "custom.advancements.ancient_dragon.title"
+        },
+        "description": {
+            "translate": "custom.advancements.ancient_dragon.description"
+        },
+        "frame": "challenge",
+        "hidden": true
+    },
+    "criteria": {
+        "ancient_dragon_kill": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

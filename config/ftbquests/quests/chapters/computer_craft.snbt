@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "computer_craft"
+	group: "472ED381C181A4D5"
+	id: "44EE978685AF79AC"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		description: ["The starting point of this mod is the basic computer. Once placed down you can right click it to enter the OS and use the terminal. The terminal has some basic linux/unix commands, which will be listed on the next page with their descriptions. Along with these basic commands there are also a few core programs that comes pre-installed in the universal &o&crom&r folder. Computers have 6 sides that peripherals can be attached to, which the next quest will describe the basic peripherals that the computer can detect. Additionally you can check out the ComputerCraft programming tutorials at https://www.computercraft.info/wiki/Tutorials"]
+		id: "0B4220460FB246A9"
+		tasks: [{
+			id: "07BF9219F9EFD6BF"
+			title: "Test"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: 0.5d
+	}]
+	subtitle: ["Tricking rocks into thinking"]
+	title: "Computer Craft"
+}

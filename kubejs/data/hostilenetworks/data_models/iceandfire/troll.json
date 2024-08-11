@@ -1,0 +1,47 @@
+{
+    "conditions": [
+        {
+            "modid": "iceandfire",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "entity": "iceandfire:troll",
+    "variants": [],
+    "name": "entity.iceandfire.troll",
+    "name_color": "#4C005C",
+    "gui_scale": 0.5,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 1280,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "custom.trivia.troll",
+    "fabricator_drops": [
+        {
+            "item": "iceandfire:troll_tusk",
+            "count": 1
+        },
+        {
+            "item": "iceandfire:troll_skull",
+            "count": 1
+        },
+        {
+            "item": "iceandfire:troll_leather_forest",
+            "count": 1
+        },
+        {
+            "item": "iceandfire:troll_leather_frost",
+            "count": 1
+        },
+        {
+            "item": "iceandfire:troll_leather_mountain",
+            "count": 1
+        }
+    ]
+}

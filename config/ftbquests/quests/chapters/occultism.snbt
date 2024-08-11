@@ -7,5 +7,6 @@
 	order_index: 8
 	quest_links: [ ]
 	quests: [ ]
+	subtitle: ["Summoning demons in your basement"]
 	title: "Occultism"
 }

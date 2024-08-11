@@ -1,0 +1,65 @@
+{
+    "size": "large",
+    "color": "#800000",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "type": "apotheosis:boss",
+                    "boss": "apotheosis:overworld/ancient_dragon",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"custom.names.gateways.ancient_dragon\"}"
+                    }
+                }
+            ],
+            "max_wave_time": 1000000000,
+            "setup_time": 500
+        }
+    ],
+    "rewards": [
+        {
+            "type": "apotheosis:affix",
+            "rarity": "apotheosis:ancient"
+        },
+        {
+            "type": "apotheosis:affix",
+            "rarity": "apotheosis:ancient"
+        },
+        {
+            "type": "apotheosis:affix",
+            "rarity": "apotheosis:ancient"
+        },
+        {
+            "type": "apotheosis:affix",
+            "rarity": "apotheosis:ancient"
+        },
+        {
+            "type": "apotheosis:affix",
+            "rarity": "apotheosis:ancient"
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:mob_effect",
+            "effect": "minecraft:weakness",
+            "duration": 600,
+            "amplifier": 0
+        },
+        {
+            "type": "gateways:explosion",
+            "strength": 10,
+            "fire": true,
+            "block_damage": false
+        }
+    ],
+    "rules": {
+        "spawn_range": 32,
+        "leash_range": 128,
+        "fail_on_out_of_bounds": false
+    },
+    "boss_event": {
+        "mode": "boss_bar",
+        "fog": true
+    }
+}

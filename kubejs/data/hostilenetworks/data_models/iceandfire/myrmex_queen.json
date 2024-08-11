@@ -1,0 +1,45 @@
+{
+    "conditions": [
+        {
+            "modid": "iceandfire",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "entity": "iceandfire:myrmex_queen",
+    "variants": [
+        "iceandfire:myrmex_worker",
+        "iceandfire:myrmex_swarmer",
+        "iceandfire:myrmex_soldier",
+        "iceandfire:myrmex_sentinel",
+        "iceandfire:myrmex_royal"
+    ],
+    "name": "entity.iceandfire.myrmex_queen",
+    "name_color": "#711FF2",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 1280,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "custom.trivia.myrmex_queen",
+    "fabricator_drops": [
+        {
+            "item": "iceandfire:myrmex_stinger",
+            "count": 1
+        },
+        {
+            "item": "iceandfire:myrmex_desert_resin",
+            "count": 3
+        },
+        {
+            "item": "iceandfire:myrmex_desert_chitin",
+            "count": 3
+        }
+    ]
+}

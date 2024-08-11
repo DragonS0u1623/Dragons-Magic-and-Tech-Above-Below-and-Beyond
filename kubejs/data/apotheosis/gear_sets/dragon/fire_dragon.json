@@ -1,0 +1,150 @@
+{
+    "weight": 40,
+    "mainhands": [
+        {
+            "weight": 3,
+            "stack": {
+                "item": "iceandfire:dragonbone_bow"
+            }
+        },
+        {
+            "weight": 3,
+            "stack": {
+                "item": "iceandfire:dragonbone_sword"
+            }
+        },
+        {
+            "weight": 3,
+            "stack": {
+                "item": "iceandfire:dragonbone_axe"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "iceandfire:dragonbone_pickaxe"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "iceandfire:dragonbone_shovel"
+            }
+        }
+    ],
+    "offhands": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:shield"
+            }
+        }
+    ],
+    "boots": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_red_boots"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_green_boots"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_bronze_boots"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_gray_boots"
+            }
+        }
+    ],
+    "leggings": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_red_leggings"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_green_leggings"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_bronze_leggings"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_gray_leggings"
+            }
+        }
+    ],
+    "chestplates": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_red_chestplate"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_green_chestplate"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_bronze_chestplate"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_gray_chestplate"
+            }
+        }
+    ],
+    "helmets": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_red_helmet"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_green_helmet"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_bronze_helmet"
+            }
+        },
+        {
+            "weight": 1,
+            "stack": {
+                "item": "iceandfire:armor_gray_helmet"
+            }
+        }
+    ],
+    "tags": [
+        "fire_dragon"
+    ]
+}

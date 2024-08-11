@@ -6,7 +6,657 @@
 	id: "48FBAF5FDA502914"
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: ["Starting off, this chapter assumes that you have gotten to at minimum the &l&ePressurized Reaction Chamber&r quest in the Basic Mekanism chapter. As such, you should have production for &l&9Oxygen&r, &l&9Hydrogen&r, &l&3Brine&r, &l&3Chlorine&r, &l&3Sodium&r, and ideally have a way of getting &l&2Sulfur&r, &l&2Fluorite&r and &l&2Uranium&r in the quantities needed for continuous &l&1Fissile Fuel&r production. A lot of &l&1Fissile Fuel&r production process is in parallel and is very complex. As such, these quests will try to work forward from &l&9Water&r or &l&2Raw Materials&r towards the final product."]
+			id: "1832EFD415F73C4A"
+			rewards: [{
+				id: "5B9E59B7DA822F77"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5979475E858F82A4"
+				title: "Welcome to Advanced Mekanism"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1832EFD415F73C4A"]
+			description: [
+				"If you don't have Productive Bees or Mystical Agriculture production for &l&2Sulfur&r you can make it using the following process."
+				""
+				"Starting with &l&9Hydrogen&r and &l&3Chlorine&r, &l&eChemical Infuser&r -> &l&3Hydrogen Chloride&r. Combine the &l&3Hydrogen Chloride&r with &l&2Gunpowder&r in the &l&eChemical Injection Chamber&r to make &l&2Sulfur&r"
+			]
+			id: "334751FF123C891D"
+			rewards: [{
+				id: "224F7D9CEB6623C9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6715F5ED7FB4332A"
+				title: "Sulfur Production"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1832EFD415F73C4A"]
+			description: ["The &l&eChemical Oxidizer&r is a machine that is capable of sublimating a solid resource into a gaseous state. Common uses will be &l&2Sulfur&r into &l&4Sulfur Dioxide&r, &l&2Reprocessed Fissile Fragments&r into &l&1Fissile Fuel&r and &l&2Yellow Cake Uranium&r into &l&7Uranium Oxide&r"]
+			id: "17594A3A82830C50"
+			rewards: [{
+				id: "38E7705A07D7878B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "71A4A0368DFC46F7"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17594A3A82830C50"]
+			description: ["&l&2 Yellow Cake Uranium&r is made by enriching &l&2Uranium Ingots&r in the &l&eEnrichment Chamber&r."]
+			id: "0386221518AF015A"
+			rewards: [{
+				id: "1306E7DA08F200C9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Don't eat this cake"
+			tasks: [{
+				id: "1DBC540DBC146EB9"
+				item: "mekanism:yellow_cake_uranium"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17594A3A82830C50"]
+			description: ["The process for making &l&4Sulfur Trioxide&r is simply to combine the &l&4Sulfur Dioxide&r you got from the &l&eChemical Oxidizer&r with &l&9Oxygen&r in the &l&eChemical Infuser&r"]
+			id: "302CB12A419D147C"
+			rewards: [{
+				id: "1AF938B9C0C2D8D7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01955F3B0320DB2C"
+				title: "Sulfur Trioxide"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["302CB12A419D147C"]
+			description: ["The &l&eRotary Condensentrator&r is a machine that can convert liquids into gases, and vice versa. It can be especially helpful for keeping production going by converting gases into liquids for bulk storage and back to gases again for actual use by machines."]
+			id: "037C9652D65DFBB6"
+			rewards: [{
+				id: "3FC0C60BF3046580"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F7D3D1783358223"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["037C9652D65DFBB6"]
+			description: ["&l&cSulfuric Acid&r is made by combining &l&9Water Vapor&r, made by processing &l&9Water&r in the &l&eRotary Condensentrator&r, with &l&4Sulfur Trioxide&r. It also has its use for Ore Processing, and would be a prime candidate for bulk storage by use of &l&eRotary Condensentrators&r if possible"]
+			id: "511F17F7713BF3FE"
+			rewards: [{
+				id: "798E6FB5E8B1DCEC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7BA514F63B91DA38"
+				title: "Sulfuric Acid"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0386221518AF015A"]
+			description: ["&l&7Uranium Oxide&r is made by processing &l&2Yellow Cake Uranium&r in the &l&eChemical Oxidizer&r"]
+			id: "43D3E27CDB2C1413"
+			rewards: [{
+				id: "4F238855CD77A9F5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "568C2D89BAD6F1A5"
+				title: "Uranium Oxide"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"511F17F7713BF3FE"
+				"43D3E27CDB2C1413"
+			]
+			description: ["&l&cHydrofluoric Acid&r is made by combining the previously made &l&cSulfuric Acid&r with &l&2Fluorite&r in the &l&eChemical Dissolution Chamber&r"]
+			id: "5AF890ED9F5FAF76"
+			rewards: [{
+				id: "190101EC9672D4CB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "116620ACC57FD210"
+				title: "Hydrofluoric Acid"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AF890ED9F5FAF76"]
+			description: ["The &l&eIsotopic Centrifuge&r is a machine capable of making &l&1Fissile Fuel&r from &l&dUranium Hexafluoride&r or &l&8Plutonium&r from &l&1Nuclear Waste&r"]
+			id: "7D802308F192F742"
+			rewards: [{
+				id: "0F2BD486EFFA2A73"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Spinny machine go brrr"
+			tasks: [{
+				id: "52123AAC3D965D52"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D802308F192F742"]
+			description: [
+				"The &l&eFission Reactor&r is the first of the nuclear reactors. It is more efficient than all previous power generation options, but does not generate power on its own, and it requires a lot of cooling to run continuously. It is recommended to use Quantum Entangloporters if you're trying to run a large scale reactor."
+				"{@pagebreak}"
+				"The reactor body is made up of &lReactor Glass&r, &lFission Reactor Casing&r, at least 4 &lFission Reactor Ports&r, and optionally &lFission Reactor Logic Adapters&r if you want to control it with redstone or other mods like ComputerCraft. On the inside, the reactor is filled with &lFission Fuel Assemblies&r capped with &lControl Rod Assemblies&r, running to the top of the reactor (&lControl rod Assembly&r should be right under the top layer of &lReactor Casing&r) in a checkerboard pattern (see attached screenshot for an example). The reactor needs to be cooled with either &l&9Water&r or &l&3Sodium Gas&r, and it needs to have an outlet for the heated coolant along with the &l&1Nuclear Waste&r generated"
+				"{image:custom:textures/fission_reactor_example.png width:100 height:100 align:center}"
+			]
+			id: "1D776A6C3EFD0A9F"
+			rewards: [{
+				id: "7D4E32C4434EED97"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Try not to make it go boom... Chernobyl..."
+			tasks: [
+				{
+					id: "3AA16172FD9EEDCA"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "137D28BC825B121E"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "1343F06EE036080E"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "22C07EA97B2791E4"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "330EEE42CB41F0D8"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+			]
+			title: "Fission Reactor"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D776A6C3EFD0A9F"]
+			description: ["The &l&eThermoelectric Boiler&r is an optional multiblock that is only required if you chose to use &l&3Sodium&r as your coolant, and as such this quest will assume that you are using it for cooling &l&3Superheated Sodium&r and generating steam. The multiblock frame is made with &lBoiler Casings&r and &lStructural Glass&r and at least 5 &lBoiler Valves&r for input/output. From bottom to top the second layer is &lSuperheating Elements&r (you can add additional heating laters by adding additional layers of &lSuperheating Elements&r or you can leave the center empty to add more water capacity to the boiler but heating layers can only be attached to the bottom of the build), above the heating layer (or optionally capacity layer) place a layer of &lPressure Dispersers&r, and optionally above that you can add additional capacity layers for increased steam capacity. Then cap off the build with &lBoiler Casings&r. Valve placements should be 1 in the Steam layer for Steam output, and at least 4 in the heater layer for heat, &l&9Water&r and &l&3Superheated Sodium&r input, and one for &l&3Sodium&r output to send back to your &l&eFission Reactor&r"]
+			id: "0F10CB3D3E055CFF"
+			optional: true
+			rewards: [{
+				id: "03E8AD290FCCA33D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "62A76CEC0B02824E"
+					item: "mekanism:boiler_casing"
+					type: "item"
+				}
+				{
+					id: "6F76D7FDF2515FA2"
+					item: "mekanism:boiler_valve"
+					type: "item"
+				}
+				{
+					id: "0D40767CD7BB836C"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+			]
+			title: "Thermoelectric Boiler"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D776A6C3EFD0A9F"]
+			description: ["The &l&eIndustrial Turbine&r will be how you actually get power from the &l&eFission Reactor&r, regardless of whether you decided to cool it with &l&9Water&r or &l&3Sodium&r. To make the mulitblock you will need an exterior of &lTurbine Casings&r and &lStructural Glass&r, with at least 2 &lTurbine Valves&r for input/output. From top to bottom the layers should be &lTurbine Vents&r for the ceiling followed by &lSaturating Condensors&r with &lElectromagnetic Coils&r in the center, then followed by a layer of &lPressure Dispersers&r surrounding the &lRotation Complex&r in the center of the build. Below the &lRotational Complex&r should only be &lTurbine Rotors&r with 2 &lRotor Blades&r per rotor. Anywhere in the exterior of the turbine there should be at least 2 &lTubine Valves&r, 1 for steam input and 1 for power output. To return water to your system for reuse you just need to use a pipe on any of the &lTurbine Vents&r to send it back to the &l&eThermoelectric Boiler&r or &l&eFission Reactor&r."]
+			id: "2BFB64DC9F5198B2"
+			rewards: [{
+				id: "76612C1A05567D15"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7BA1409635B6427E"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					id: "438E1475BD21B668"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					id: "6C694B684957F974"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+				{
+					id: "739B546957FC7339"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					id: "5965CCC2072EDD03"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					id: "3F35A2F282A7E31F"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+				{
+					id: "2DB93489BFB5411F"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					id: "74DA6B6B67D963B1"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+				{
+					id: "2941C3A27472FEE6"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+				{
+					id: "628E5808A6539ED0"
+					item: "mekanismgenerators:saturating_condenser"
+					type: "item"
+				}
+			]
+			title: "Industrial Turbine"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BFB64DC9F5198B2"]
+			description: ["&l&1Nuclear Waste&r is a dangerous but useful byproduct of the &l&eFission Reactor&r, and as it's radioactive you can't just store it in any &lChemical Tank&r. You will need a &lRadioactive Waste Barrel&r to store the &l&1Nuclear Waste&r or any other radioactive materials. Any materials stored in &lRadioactive Waste Barrels&r with a decay rate will naturally decay over time, but most can have alternative use, and would be best to use in such cases"]
+			id: "689C63115DB4E04F"
+			rewards: [{
+				id: "1AB7AB432192A73B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "And what to do with it"
+			tasks: [{
+				id: "731411CE187EC635"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
+			title: "Nuclear Waste"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["689C63115DB4E04F"]
+			description: ["The &l&eSolar Neutron Activator&r is a machine that uses power and sunlight to turn &l&6Lithium&r into &l&dTritium&r or &l&1Nuclear Waste&r into &l&8Polonium&r"]
+			id: "51592DFF9A5FE5F8"
+			rewards: [{
+				id: "2204C6C64B014B83"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The Sun is a deadly laser"
+			tasks: [{
+				id: "0AD968782453D36B"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["51592DFF9A5FE5F8"]
+			description: ["&l&2Polonium Pellets&r are made by combining &l&2Fluorite Dust&r, &l&9Water&r and &l&8Polonium&r in the &l&ePressurized Reaction Chamber&r. &l&2Polonium Pellets&r are used for the creation of the &l&eFission Reactor&r, the &l&eSupercritical Phase Shifter&r (&l&eSPS&r), the &l&eQuantum Item Orchestration System&r (&l&eQIO&r), and the &l&0Meka Suit&r"]
+			id: "4407313E8EC5C818"
+			rewards: [{
+				id: "6F05148BEF3AC931"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5591B810EFD5EA3E"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4407313E8EC5C818"]
+			description: ["&l&9Heavy Water&r is collected by using an &l&eElectric Pump&r with a &lFilter Upgrade&r on any body of water"]
+			id: "153F376F17CB0875"
+			rewards: [{
+				id: "1DF0FABAD4A22CCA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0DC7484E358A4715"
+				item: "mekanism:electric_pump"
+				type: "item"
+			}]
+			title: "Heavy Water"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["153F376F17CB0875"]
+			description: ["&l&dDeuterium&r is made by splitting it and &l&9Oxygen&r from &l&9Heavy Water&r in the &l&eElectrolytic Separator&r and it is one of the two required gasses for powering the &l&eFusion Reactor&r"]
+			id: "6A246484C46B5A68"
+			rewards: [{
+				id: "439E1FFA0ED459F3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F42D0DF76656F76"
+				title: "Deuterium"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6A246484C46B5A68"]
+			description: ["&l&dD-T Fuel&r is an alternative fuel for the &l&eFusion Reactor&r that makes the reactor burn fuel at its maximum burnrate. It is also required for starting the reactor. It can be made by combining &l&dDeuterium&r and &l&dTritium&r in the &l&eChemical Infuser&r"]
+			id: "1684108C3565266B"
+			rewards: [{
+				id: "52DD25DE44C731D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "262601B917881554"
+				title: "D-T Fuel"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1684108C3565266B"]
+			description: ["The &l&2Hohlraum&r is a one time use key filled with a primer of &l&dD-T Fuel&r that is used to start a &l&eFusion Reactor&r"]
+			id: "06959B68434510DA"
+			rewards: [{
+				id: "218DB6B48CD57A4A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "06CFA5AAE14A775A"
+				item: "mekanismgenerators:hohlraum"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["06959B68434510DA"]
+			description: [
+				"The multiblock for the &l&eFusion Reactor&r is fairly simple as there is only 1 size and 1 \"correct\" build for it. The first/bottom layer is a star of &lFusion Reactor Frame&r (Think 3x3 square with the middle of each side extended 1 block out), the second and 4th layers are identical with them just being a square of &lFusion Reactor Frames&r without the corners touching (The 3x3 square in the center should remain empty), the third layer is the same as the second/4th layers but replace the middle block of one side with the &lLaser Focus Matrix&r (or a &lFusion Reactor Port&r if you want to use a heater to start the reactor) and at least 2 blocks anywhere with &lFusion Reactor Ports&r for I/O (if you're using &l&dD-T Fuel&r you only need 2 total, otherwise you need 3), and the top layer is a star of &lFusion Reactor Frames&r with a &lFusion Reactor Controller&r in the center. Any non-corner &lFusion Reactor Frame&r blocks in the build can be replaced with &lReactor Glass&r, &lFusion Reactor Ports&r, or &lFusion Reactor Logic Adapters&r."
+				"{@pagebreak}"
+				"In this pack it is highly recommended to use redstone or ComputerCraft along with &lFusion Reactor Logic Adapters&r to control the &l&eFusion Reactor&r automatically and allow for it to continue operation without requiring constant maintenance"
+			]
+			id: "6CCD6790D8BEA8EB"
+			rewards: [{
+				id: "7A972C831020E1D7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Now make a Dyson Sphere, wait wrong game..."
+			tasks: [
+				{
+					id: "35AC3FC092FC46B9"
+					item: "bfr:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "4C41F0A4F07A1742"
+					item: "bfr:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					id: "5D2611C76278F73A"
+					item: "bfr:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					id: "4373B2274F30F106"
+					item: "bfr:laser_focus_matrix"
+					type: "item"
+				}
+				{
+					id: "4B531CCA6B86A962"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "Fusion Reactor"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6CCD6790D8BEA8EB"]
+			description: ["There are two ways to start your &l&eFusion Reactor&r, pumping in heat with pipes, or using a laser array to shoot a laser into the reactor to heat the &l&2Hohlraum&r. Both options will require the &l&2Hohlraum&r to be primed with &l&dD-T Fuel&r and placed inside the reactor. The laser array will require &lLasers&r with a steady supply of power firing into &lLaser Amplifiers&r to be able to blast enough power into the reactor fast enough to ignite the &l&2Hohlraum&r"]
+			id: "0E97FD4072E2C757"
+			rewards: [{
+				id: "26BBA00C3771F71A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "With lasers!!"
+			tasks: [
+				{
+					id: "581450B556B6125B"
+					item: "mekanism:laser"
+					type: "item"
+				}
+				{
+					id: "2F4958584C03C978"
+					item: "mekanism:laser_amplifier"
+					type: "item"
+				}
+			]
+			title: "Starting the Reactor"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0E97FD4072E2C757"]
+			description: ["With power generation now being a non-issue storing the generated power is now the primary concern. Admittedly this chapter could be entered in much sooner, but it's much easier to use &lEnergy Cells&r for early power storage as they can hold more than enough power for an emergency backup and are cheaper to make. The &l&eEnergized Induction Matrix&r is essentially a giant multiblock battery that is capable of holding up to 1.6TFE per &lUltimate Induction Cell&r and transferring it at a speed of 52.42MFE per &lUltimate Induction Provider&r, making it the perfect end-game solution to all power storage. The exterior of it is made with 2 &lInduction Ports&r, and &lInduction Casing&r while the inside of the multiblock is a mix of &lInduction Cells&r, &lInduction Providers&r and/or &lAir&r"]
+			id: "42A24F43FD24E49A"
+			rewards: [{
+				id: "6E09CF12A5FFE2B4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "We're gonna need a bigger battery"
+			tasks: [
+				{
+					id: "54F90A008E6A0FEF"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+				{
+					id: "6177F633CA161902"
+					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+				{
+					id: "69514D5FA6765F86"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+				{
+					id: "7982295F8F8A8EED"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+			]
+			title: "Energized Induction Matrix"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["42A24F43FD24E49A"]
+			description: ["With most of your &l&8Polonium&r use being done for now, you can start scaling down the &l&eFission Reactor&r to start producing &l&8Plutonium&r, as it is the next requirement for making the &l&eSPS&r and &l&5Antimatter&r. &l&8Plutonium&r is made by spinning &l&1Nuclear Waste&r in the &l&eIsotopic Centrifuge&r, and the gas can then be combined with &l&9Water&r and &l&2Fluorite Dust&r in the &l&ePressurized Reaction Chamber&r to make &l&2Plutonium Pellets&r"]
+			id: "57FE554D31580D5D"
+			rewards: [{
+				id: "63222597BCA72250"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Uhhh is this safe to be handling?"
+			tasks: [{
+				id: "1C96AFEDF33C5622"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["57FE554D31580D5D"]
+			description: [
+				"The final multiblock of this chapter is the &l&eSupercritical Phase Shifter&r, a structure capable of converting &l&8Polonium&r to &l&5Antimatter&r. The frame must be made from &lSPS Casings&r but the sides, top and bottom can be made with &lSPS Casings&r, &lReactor Glass&r or &lSPS Ports&r. On the inside of one or two of the &lSPS Ports&r there should be a &lSupercharged Coil&r with those ports also being supplied with power, and one of the &lSPS Ports&r should be set to output for the &l&5Antimatter&r, with the last being set to input for &l&8Polonium&r. The next page has some examples of what the &l&eSPS&r should look like."
+				"{@pagebreak}"
+				"Full SPS assembly"
+				"{image:custom:textures/sps_full_example.png width:100 height:100 align:center}"
+				"SPS Side example, any &lReactor Glass&r can be replaced with &lSPS Casing&r or &lSPS Port&r"
+				"{image:custom:textures/sps_side_example.png width:100 height:100 align:center}"
+			]
+			id: "4155CE6F31E45F16"
+			rewards: [{
+				id: "50BB786932EE6709"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Supercritical Phase- WHAT??"
+			tasks: [
+				{
+					id: "067BD0C833E3D070"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					id: "02C7EB44DF2DD452"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "2ECD8E71DB616DBD"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "7E81A4586BAD1CF2"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4155CE6F31E45F16"]
+			description: ["&l&5Antimatter&r is the final end-game material, being used for the highest tier &l&eQIO&r drive, &l&0Meka Suit&r upgrades, and the &l&eAntiprotonic Nucleosynthesizer&r"]
+			id: "1B74E1EE926186C7"
+			rewards: [{
+				id: "5A59E2FCE9D07F13"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Does anyone else hear Madonna?"
+			tasks: [{
+				id: "39755815B94E1E08"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1B74E1EE926186C7"]
+			description: ["The &l&eAntiprotonic Nucleosynthesizer&r is a machine that is capable of transmuting certain items using &l&5Antimatter&r. Some useful recipes are the ability to activate &l&2Inactive Nether Stars&r and turning &l&2Skeleton Skulls&r into &l&2Wither Skeleton Skulls&r"]
+			id: "3E359E72B77977E7"
+			rewards: [{
+				id: "41DE70A5A452E98E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "70D74CDA4F6D6A95"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+	]
 	subtitle: ["Doing Oppenheimer proud"]
 	title: "Advanced Mekanism"
 }

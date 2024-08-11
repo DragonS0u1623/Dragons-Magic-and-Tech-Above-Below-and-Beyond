@@ -1,0 +1,24 @@
+{
+    "type": "gateways:gate_recipe",
+    "group": "gateways",
+    "pattern": [
+        "XXX",
+        "XAX",
+        "BBB"
+    ],
+    "key": {
+        "X": {
+            "tag": "forge:scales/ice_dragon"
+        },
+        "A": {
+            "item": "iceandfire:ice_dragon_heart"
+        },
+        "B": {
+            "item": "iceandfire:dragonbone"
+        }
+    },
+    "result": {
+        "item": "gateways:gate_pearl"
+    },
+    "gateway": "gateways:basic/ice_dragon"
+}

@@ -23,4 +23,6 @@
 		reactor_explosion_radius = 4.0
 		#List of fluids that can be used as coolants in the fusion reactor (; separated)
 		fusion_coolants = ["water;mekanism:steam", "mekanism:sodium;mekanism:superheated_sodium"]
+		#Hide original Mekanism Fusion Reactor recipes
+		hide_original_mek_recipes = true
 

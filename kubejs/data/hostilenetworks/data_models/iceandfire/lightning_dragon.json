@@ -1,0 +1,66 @@
+{
+    "conditions": [
+		{
+			"modid": "iceandfire",
+			"type": "forge:mod_loaded"
+		}
+	],
+    "entity": "iceandfire:lightning_dragon",
+	"variants": [],
+    "name": "entity.iceandfire.lightning_dragon",
+	"name_color": "#2445ff",
+	"gui_scale": 1.5,
+	"gui_x_offset": 0,
+	"gui_y_offset": 0,
+	"gui_z_offset": 0,
+	"sim_cost": 2560,
+	"input": {
+		"item": "hostilenetworks:prediction_matrix"
+	},
+	"base_drop": {
+		"item": "iceandfire:dragonbone",
+		"count": 8
+	},
+	"trivia": "custom.trivia.lightning_dragon",
+	"fabricator_drops": [
+		{
+			"item": "iceandfire:dragonscales_electric",
+			"count": 8
+		},
+		{
+			"item": "iceandfire:dragonscales_amythest",
+			"count": 8
+		},
+		{
+			"item": "iceandfire:dragonscales_copper",
+			"count": 8
+		},
+		{
+			"item": "iceandfire:dragonscales_black",
+			"count": 8
+		},
+		{
+			"item": "iceandfire:dragonegg_electric",
+			"count": 1
+		},
+		{
+			"item": "iceandfire:dragonegg_amythest",
+			"count": 1
+		},
+		{
+			"item": "iceandfire:dragonegg_copper",
+			"count": 1
+		},
+		{
+			"item": "iceandfire:dragonegg_black",
+			"count": 1
+		},
+		{
+			"item": "iceandfire:lightning_dragon_blood",
+			"count": 1
+		}
+	],
+	"data_per_kill": [
+		3, 12, 30, 45
+	]
+}

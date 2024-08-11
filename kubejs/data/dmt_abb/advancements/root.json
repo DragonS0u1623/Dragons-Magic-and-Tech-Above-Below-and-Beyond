@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "title": "Dragons Magic and Tech",
+        "description": "Dragons Magic and Tech",
+        "frame": "challenge",
+        "background": "apotheosis:textures/advancements/bg/apoth.png"
+    },
+    "criteria": {
+        "dmt": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "dmt"
+        ]
+    ]
+}

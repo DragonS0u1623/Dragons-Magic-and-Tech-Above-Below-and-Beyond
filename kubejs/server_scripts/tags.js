@@ -51,6 +51,15 @@ ServerEvents.tags('block', event => {
         'mysticalagriculture:crimson_iron_crop',
     ])
 
+    event.add('diagonalwalls:non_diagonal_walls', [
+        'iceandfire:dragon_bone_wall'
+    ])
+
+    event.add('diagonalwindows:non_diagonal_windows', [
+        'connectedglass:borderless_glass_pane',
+        'connectedglass:clear_glass_pane',
+        'connectedglass:scratched_glass_pane',
+    ])
 })
 
 ServerEvents.tags('fluid', event => {

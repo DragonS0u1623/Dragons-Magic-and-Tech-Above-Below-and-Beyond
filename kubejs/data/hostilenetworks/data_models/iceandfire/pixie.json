@@ -1,0 +1,35 @@
+{
+    "conditions": [
+        {
+            "modid": "iceandfire",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "entity": "iceandfire:pixie",
+    "variants": [],
+    "name": "entity.iceandfire.pixie",
+    "name_color": "#D5678A",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 2560,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:end_prediction",
+        "count": 1
+    },
+    "trivia": "custom.trivia.pixie",
+    "fabricator_drops": [
+        {
+            "item": "iceandfire:pixie_wings",
+            "count": 1
+        },
+        {
+            "item": "iceandfire:pixie_dust",
+            "count": 1
+        }
+    ]
+}

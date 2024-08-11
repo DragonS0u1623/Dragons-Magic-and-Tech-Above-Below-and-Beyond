@@ -39,7 +39,7 @@
 				count: 32L
 				id: "042354A2E756EE3B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:ingots/andesite_alloy)"
@@ -64,7 +64,7 @@
 				count: 8L
 				id: "2921582D924E34F1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(biomesoplenty:rose_quartz_chunk)item(create:rose_quartz))"
@@ -87,7 +87,7 @@
 			tasks: [{
 				id: "377F806649CAD4BD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:polished_rose_quartz)"
@@ -560,7 +560,7 @@
 			tasks: [{
 				id: "30EA7B3D6481FE4B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:super_glue"
 					tag: {
 						Damage: 0
@@ -687,7 +687,7 @@
 			tasks: [{
 				id: "7268B0307EEC4065"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:ingots/brass)"

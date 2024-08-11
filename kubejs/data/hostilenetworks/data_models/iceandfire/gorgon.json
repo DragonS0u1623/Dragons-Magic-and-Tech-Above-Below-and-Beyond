@@ -1,0 +1,31 @@
+{
+    "conditions": [
+        {
+            "modid": "iceandfire",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "entity": "iceandfire:gorgon",
+    "variants": [],
+    "name": "entity.iceandfire.gorgon",
+    "name_color": "#819F91",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 2560,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "custom.trivia.gorgon",
+    "fabricator_drops": [
+        {
+            "item": "iceandfire:gorgon_head",
+            "count": 1
+        }
+    ]
+}

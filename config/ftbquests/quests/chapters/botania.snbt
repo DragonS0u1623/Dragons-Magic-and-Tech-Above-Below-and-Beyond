@@ -18,7 +18,7 @@
 			tasks: [{
 				id: "28B4AA0E8B13F203"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:white_mystical_flower)item(botania:white_double_flower))"
@@ -41,7 +41,7 @@
 			tasks: [{
 				id: "69D2C6DB2B182AF5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:orange_mystical_flower)item(botania:orange_double_flower))"
@@ -64,7 +64,7 @@
 			tasks: [{
 				id: "68DB19E7F1BD1CEA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:magenta_mystical_flower)item(botania:magenta_double_flower))"
@@ -87,7 +87,7 @@
 			tasks: [{
 				id: "06736E18197EC07C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:light_blue_mystical_flower)item(botania:light_blue_double_flower))"
@@ -110,7 +110,7 @@
 			tasks: [{
 				id: "7616403B94AB5740"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:yellow_mystical_flower)item(botania:yellow_double_flower))"
@@ -133,7 +133,7 @@
 			tasks: [{
 				id: "5B01CD41FB38F973"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:lime_mystical_flower)item(botania:lime_double_flower))"
@@ -156,7 +156,7 @@
 			tasks: [{
 				id: "2D2B94C8374A90A6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:pink_mystical_flower)item(botania:pink_double_flower))"
@@ -179,7 +179,7 @@
 			tasks: [{
 				id: "2B2205EC4498D31A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:gray_mystical_flower)item(botania:gray_double_flower))"
@@ -202,7 +202,7 @@
 			tasks: [{
 				id: "515F18AF45676D99"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:light_gray_mystical_flower)item(botania:light_gray_double_flower))"
@@ -226,7 +226,7 @@
 			tasks: [{
 				id: "10D4BE4E33B0FC22"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:cyan_mystical_flower)item(botania:cyan_double_flower))"
@@ -249,7 +249,7 @@
 			tasks: [{
 				id: "741487D2CD4DEF30"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:purple_mystical_flower)item(botania:purple_double_flower))"
@@ -272,7 +272,7 @@
 			tasks: [{
 				id: "4191E813FACBA8EF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:blue_mystical_flower)item(botania:blue_double_flower))"
@@ -295,7 +295,7 @@
 			tasks: [{
 				id: "7C3CF25F6FA1A471"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:brown_mystical_flower)item(botania:brown_double_flower))"
@@ -318,7 +318,7 @@
 			tasks: [{
 				id: "219C308FECED0C0D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:green_mystical_flower)item(botania:green_double_flower))"
@@ -341,7 +341,7 @@
 			tasks: [{
 				id: "166F2B3D6D5ECEA9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:red_mystical_flower)item(botania:red_double_flower))"
@@ -364,7 +364,7 @@
 			tasks: [{
 				id: "02A8557F57EA7B8C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:black_mystical_flower)item(botania:black_double_flower))"
@@ -388,7 +388,7 @@
 			tasks: [{
 				id: "28901E714C3014BA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:apothecary_default)item(botania:apothecary_forest)item(botania:apothecary_plains)item(botania:apothecary_mountain)item(botania:apothecary_fungal)item(botania:apothecary_swamp)item(botania:apothecary_desert)item(botania:apothecary_taiga)item(botania:apothecary_mesa)item(botania:apothecary_mossy)item(botania:apothecary_livingrock)item(botania:apothecary_deepslate))"
@@ -455,7 +455,7 @@
 			tasks: [{
 				id: "0931CB7CB2FB0052"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:twig_wand"
 					tag: {
 						color1: 0
@@ -484,7 +484,7 @@
 				{
 					id: "3A47C0EF9AD37E9C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(botania:hydroangeas)item(botania:endoflame))"
@@ -564,7 +564,7 @@
 				{
 					id: "70747F4487AB6841"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(botania:mana_powder)item(botania:mana_pearl)item(botania:mana_diamond)item(botania:mana_diamond_block)item(botania:quartz_mana)item(botania:mana_string))"
@@ -576,7 +576,7 @@
 				{
 					id: "218D99444BB6F35F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(botania:manasteel_ingot)item(botania:manasteel_block))"
@@ -603,7 +603,7 @@
 			tasks: [{
 				id: "3F9000B3E8B5D4AB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:manasteel_pick)item(botania:manasteel_shovel)item(botania:manasteel_axe)item(botania:manasteel_hoe)item(botania:manasteel_sword)item(botania:manasteel_shears)item(aiotbotania:manasteel_aiot)item(delightful:manasteel_knife))"
@@ -628,7 +628,7 @@
 			tasks: [{
 				id: "232D51DAC6697E1A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:manasteel_helmet)item(botania:manasteel_chestplate)item(botania:manasteel_leggings)item(botania:manasteel_boots))"
@@ -651,7 +651,7 @@
 			tasks: [{
 				id: "4053A6BCC4FAE7D1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:rune_water)item(botania:rune_fire)item(botania:rune_earth)item(botania:rune_air)item(botania:rune_spring)item(botania:rune_summer)item(botania:rune_autumn)item(botania:rune_winter)item(botania:rune_mana)item(botania:rune_lust)item(botania:rune_gluttony)item(botania:rune_greed)item(botania:rune_sloth)item(botania:rune_wrath)item(botania:rune_envy)item(botania:rune_pride))"
@@ -1352,7 +1352,7 @@
 			tasks: [{
 				id: "73D5D3B3E2E45EFC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:terrasteel_ingot)item(botania:terrasteel_block))"
@@ -1377,7 +1377,7 @@
 			tasks: [{
 				id: "1ED329C40BD3A0A4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(botania:terrasteel_helmet)item(botania:terrasteel_chestplate)item(botania:terrasteel_leggings)item(botania:terrasteel_boots))"
@@ -1438,7 +1438,7 @@
 			tasks: [{
 				id: "17DF034C6B681AF8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:lexicon"
 					tag: {
 						"botania:elven_unlock": 1b
@@ -1501,7 +1501,7 @@
 				{
 					id: "3FD18C9C673422BB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "or(item(botania:spark_upgrade_dispersive)item(botania:spark_upgrade_dominant)item(botania:spark_upgrade_recessive)item(botania:spark_upgrade_isolated))"
@@ -1671,7 +1671,7 @@
 			tasks: [{
 				id: "41BF4E30B7C60DBC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:odin_ring"
 					tag: {
 						baubleUUID: [I;

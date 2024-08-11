@@ -58,7 +58,7 @@
 			tasks: [{
 				id: "30186F12C44B94B4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(ars_nouveau:blue_archwood_log)item(ars_nouveau:purple_archwood_log)item(ars_nouveau:red_archwood_log)item(ars_nouveau:green_archwood_log)item(ars_elemental:yellow_archwood_log))"
@@ -81,7 +81,7 @@
 			tasks: [{
 				id: "4FAAA8ABBF383B3C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:dowsing_rod"
 					tag: {
 						Damage: 0
@@ -205,7 +205,7 @@
 			tasks: [{
 				id: "44CEF45589326ACD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:dominion_wand"
 					tag: { }
 				}
@@ -580,7 +580,7 @@
 			tasks: [{
 				id: "516806BCF221A9BF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:spell_parchment"
 					tag: { }
 				}
@@ -602,7 +602,7 @@
 			tasks: [{
 				id: "78676CCEA071A0C5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:runic_chalk"
 					tag: {
 						Damage: 0
@@ -718,7 +718,7 @@
 			tasks: [{
 				id: "0DE6F8934BE07015"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:enchanters_sword"
 					tag: {
 						Damage: 0
@@ -743,7 +743,7 @@
 			tasks: [{
 				id: "1162835E9EC78F11"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:spell_bow"
 					tag: { }
 				}
@@ -766,7 +766,7 @@
 			tasks: [{
 				id: "2D45DD75DC169E28"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:enchanters_shield"
 					tag: {
 						Damage: 0
@@ -791,7 +791,7 @@
 			tasks: [{
 				id: "0098B4B52E01AE25"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:enchanters_mirror"
 					tag: { }
 				}
@@ -814,7 +814,7 @@
 			tasks: [{
 				id: "3E6B5ABE3068DF3F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:wand"
 					tag: { }
 				}
@@ -2450,7 +2450,7 @@
 			tasks: [{
 				id: "28363CBD720EB058"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:starbuncle_charm"
 					tag: { }
 				}

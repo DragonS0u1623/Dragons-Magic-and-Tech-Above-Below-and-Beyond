@@ -1,0 +1,31 @@
+{
+    "type": "gateways:gate_recipe",
+    "group": "gateways",
+    "pattern": [
+        "XXX",
+        "CAC",
+        "BBB"
+    ],
+    "key": {
+        "X": {
+            "tag": "forge:storage_blocks/scales/dragon/lightning"
+        },
+        "A": {
+            "type": "forge:partial_nbt",
+            "item": "gateways:gate_pearl",
+            "nbt": {
+                "gateway": "gateways:basic/lightning_dragon"
+            }
+        },
+        "B": {
+            "item": "iceandfire:dragon_bone_block"
+        },
+        "C": {
+            "item": "iceandfire:lightning_dragon_heart"
+        }
+    },
+    "result": {
+        "item": "gateways:gate_pearl"
+    },
+    "gateway": "gateways:endless/lightning_dragon"
+}
